@@ -38,6 +38,8 @@ This repo contains:
 - Tutorials and reference material to build your own Martini 3 model: 
   [tutorials/](https://github.com/ricalessandri/Martini3-small-molecules/blob/master/tutorials)
 
+Please make sure to check the `README.md` in each subfolder for some more information and details. 
+
 
 
 ## Contributing

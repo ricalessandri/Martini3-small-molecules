@@ -1,0 +1,45 @@
+
+;;;;;; 1,5-NAPHTHYRIDINE
+;
+; Note(s):
+;   For minimizations, you may use define=-DFLEXIBLE to use a stiff-bond version of the topology that is more amenable to minimization.
+;
+
+[ moleculetype ]
+; molname    nrexcl
+  NAPY         1 
+
+[ atoms ]
+; nr type resnr residue atom cgnr charge mass
+   1  TN6a  0    NAPY    N1    1    0     45   
+   2  TC5   0    NAPY    R2    2    0     45   
+   3  TC5   0    NAPY    R3    3    0      0
+   4  TC5   0    NAPY    R4    4    0     45   
+   5  TN6a  0    NAPY    N5    5    0     45   
+
+[bonds]
+#ifndef FLEXIBLE
+[constraints]
+#endif
+; i  j  funct length
+  1  2   1     0.257 1000000 ; cog
+  1  4   1     0.428 1000000 ; cog
+  1  5   1     0.504 1000000 ; cog
+  2  5   1     0.428 1000000 ; cog
+  4  5   1     0.257 1000000 ; cog
+
+[ dihedrals ]
+; improper
+; i j k l  funct  ref.angle force_k
+  1 2 4 5    2      180       200  ; default for fused bicyclic compounds 
+
+[ virtual_sitesn ]
+; site funct  constructing atom indices
+   3     1     1 2 4 5
+
+[ exclusions ]
+ 1 2 3 4 5
+ 2 3 4 5
+ 3 4 5
+ 4 5
+

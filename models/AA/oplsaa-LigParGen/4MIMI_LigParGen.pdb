@@ -1,0 +1,27 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  N00 4MIMI   1       1.000   1.000   0.000
+ATOM      2  H01 4MIMI   1      -0.010   1.000   0.000
+ATOM      3  C02 4MIMI   1       1.814   1.000  -1.099
+ATOM      4  C03 4MIMI   1       3.098   0.998  -0.597
+ATOM      5  N04 4MIMI   1       3.069   0.997   0.778
+ATOM      6  C05 4MIMI   1       1.799   0.999   1.107
+ATOM      7  C06 4MIMI   1       4.386   0.999  -1.324
+ATOM      8  H07 4MIMI   1       1.424   1.000  -2.106
+ATOM      9  H08 4MIMI   1       1.401   0.997   2.112
+ATOM     10  H09 4MIMI   1       4.229   1.001  -2.408
+ATOM     11  H0A 4MIMI   1       4.968   0.110  -1.064
+ATOM     12  H0B 4MIMI   1       4.969   1.886  -1.061
+TER 
+CONECT    1    2 
+CONECT    1    3 
+CONECT    3    4 
+CONECT    4    5 
+CONECT    1    6 
+CONECT    4    7 
+CONECT    3    8 
+CONECT    6    9 
+CONECT    7   10 
+CONECT    7   11 
+CONECT    7   12 
+CONECT    5    6 
+END

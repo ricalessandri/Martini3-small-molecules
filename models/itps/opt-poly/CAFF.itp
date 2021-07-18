@@ -1,0 +1,62 @@
+
+;;;;;; CAFFEINE
+;
+; Reference(s):
+;   PCT Souza, S Thallmair, P Conflitti, JC Ramirez Palacios, R Alessandri, S Raniolo, V Limongelli, SJ Marrink, Protein-Ligand
+;   Binding with the Coarse-Grained Martini Model, Nat. Commun. 2020, 11, 3714, [DOI: 10.1038/s41467-020-17437-5].
+;
+; Note(s):
+;   For minimizations, you may use define=-DFLEXIBLE to use a stiff-bond version of the topology that is more amenable to minimization.
+;
+
+[moleculetype]
+; molname    nrexcl
+  CAFF        1 
+
+[atoms]
+; nr type resnr residue atom cgnr charge mass
+   1  TN1   0    CAFF   R1    1    0     63
+   2  TP1a  0    CAFF   O2    2    0      0    
+   3  TN1   0    CAFF   R3    3    0     63
+   4  TP1a  0    CAFF   O4    4    0      0
+   5  TC5   0    CAFF   R5    5    0      0
+   6  TN5a  0    CAFF   N6    5    0     63
+   7  TN1   0    CAFF   R7    5    0     63
+
+[bonds]
+#ifndef FLEXIBLE
+[constraints]
+#endif
+; i  j  funct length
+  1  3   1     0.474 1000000 ; cog
+  1  6   1     0.405 1000000 ; cog
+  3  6   1     0.599 1000000 ; cog
+  3  7   1     0.555 1000000 ; cog
+  6  7   1     0.283 1000000 ; cog
+
+[dihedrals]
+; improper
+; i j k l  funct  ref.angle force_k
+  1 3 6 7    2      180       200   
+
+[virtual_sites2]
+; sites positioned at 1-a
+; site  from  funct    a
+   5    3 6     1     0.635 ; cog 
+
+[virtual_sites3]
+; peripheral virtual sites
+; site positioned as a linear combination of 3 atoms
+; the site is in the same plane
+; site  from      funct    a      b
+   2    5 1 3       1     0.640 0.605 ; cog
+   4    5 3 7       1     0.650 0.600 ; cog
+
+[exclusions]
+ 1 2 3 4 5 6 7
+ 2 3 4 5 6 7
+ 3 4 5 6 7
+ 4 5 6 7
+ 5 6 7
+ 6 7
+

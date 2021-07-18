@@ -1,0 +1,32 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  N00 BZTA    1       1.000   1.000   0.000
+ATOM      2  C01 BZTA    1      -0.386   1.000   0.000
+ATOM      3  C02 BZTA    1      -1.211   1.000   1.143
+ATOM      4  C03 BZTA    1      -2.602   0.998   0.997
+ATOM      5  C04 BZTA    1      -3.176   0.997  -0.271
+ATOM      6  C05 BZTA    1      -2.377   0.997  -1.419
+ATOM      7  C06 BZTA    1      -0.985   0.998  -1.263
+ATOM      8  S07 BZTA    1       0.250   1.001  -2.467
+ATOM      9  C08 BZTA    1       1.435   1.002  -1.239
+ATOM     10  H09 BZTA    1      -0.756   1.002   2.128
+ATOM     11  H0A BZTA    1      -3.235   1.000   1.881
+ATOM     12  H0B BZTA    1      -4.260   0.995  -0.371
+ATOM     13  H0C BZTA    1      -2.826   0.995  -2.407
+ATOM     14  H0D BZTA    1       2.491   1.002  -1.476
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    4    5 
+CONECT    5    6 
+CONECT    2    7 
+CONECT    7    8 
+CONECT    1    9 
+CONECT    3   10 
+CONECT    4   11 
+CONECT    5   12 
+CONECT    6   13 
+CONECT    9   14 
+CONECT    6    7 
+CONECT    8    9 
+END

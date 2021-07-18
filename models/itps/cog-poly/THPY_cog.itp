@@ -1,0 +1,50 @@
+
+;;;;;; THIENO[2,3-c]PYRIDINE
+;
+; Reference(s):
+;   PCT Souza, S Thallmair, P Conflitti, JC Ramirez Palacios, R Alessandri, S Raniolo, V Limongelli, SJ Marrink, Protein-Ligand
+;   Binding with the Coarse-Grained Martini Model, Nat. Commun. 2020, 11, 3714, [DOI: 10.1038/s41467-020-17437-5].
+;
+; Note(s):
+;   Bead types updated to the Martini 3 parameters from the Martini 3 open-beta model [DOI: 10.1038/s41467-020-17437-5].
+;   For minimizations, you may use define=-DFLEXIBLE to use a stiff-bond version of the topology that is more amenable to minimization.
+;
+
+[moleculetype]
+; molname    nrexcl
+  THPY         1 
+
+[atoms]
+; nr type resnr residue atom cgnr charge mass
+   1  TC6   1    THPY    S1    1    0     45   
+   2  TC5   1    THPY    R2    2    0     45   
+   3  TC5   1    THPY    R3    3    0      0
+   4  TN6a  1    THPY    N4    4    0     45   
+   5  TC5   1    THPY    R5    5    0     45   
+
+[bonds]
+#ifndef FLEXIBLE
+[constraints]
+#endif
+; i  j  funct length
+  1  2   1     0.243 1000000 ; cog
+  1  4   1     0.320 1000000 ; cog
+  1  5   1     0.453 1000000 ; cog
+  2  5   1     0.420 1000000 ; cog
+  4  5   1     0.300 1000000 ; cog
+
+[dihedrals]
+; improper
+; i j k l  funct  ref.angle force_k
+  1 2 4 5    2      180       200 ; default for fused bicyclic compounds 
+
+[virtual_sitesn]
+; site funct  constructing atom indices
+   3     1     1 2 4 5
+
+[exclusions]
+ 1 2 3 4 5
+ 2 3 4 5
+ 3 4 5
+ 4 5
+

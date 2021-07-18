@@ -1,0 +1,19 @@
+
+;;;;;; THIOPHENOL
+
+[moleculetype]
+; molname       nrexcl
+  THPH            1
+
+[atoms]
+; id    type    resnr   residu  atom    cgnr    charge
+  1   SC6   1     THPH  S1    1     0 
+  2   TC5   1     THPH  R2    2     0 
+  3   TC5   1     THPH  R3    3     0 
+
+[constraints]
+; i j   funct   length
+  1 2       1     0.340
+  2 3       1     0.290
+  1 3       1     0.340
+

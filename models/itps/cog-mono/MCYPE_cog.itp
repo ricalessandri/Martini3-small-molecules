@@ -1,0 +1,16 @@
+
+;;;;;; METHYLCYCLOPENTANE
+
+[moleculetype]
+; molname       nrexcl
+  MCYPE           1
+
+[atoms]
+; id    type    resnr   residu  atom    cgnr    charge
+  1      SC3      1      MCYPE   C1      1        0 
+  2      SC3      1      MCYPE   C2      2        0  
+
+[bonds]
+; i j  funct    length   force.c.
+  1 2   1       0.370    5000 ; cog
+

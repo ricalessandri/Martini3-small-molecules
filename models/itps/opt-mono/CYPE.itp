@@ -1,0 +1,16 @@
+
+;;;;;; CYCLOPENTANE
+
+[moleculetype]
+; molname       nrexcl
+  CYPE           1
+
+[atoms]
+; id    type    resnr   residu  atom    cgnr    charge
+  1   TC3   1     CYPE  C1    1     0
+  2   SC3   1     CYPE  C2    2     0
+
+[bonds]
+; i j  funct    length   force.c.
+  1 2   1       0.310    5000
+

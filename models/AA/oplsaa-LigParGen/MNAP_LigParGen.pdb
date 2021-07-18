@@ -1,0 +1,46 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 MNAP    1       1.000   1.000   0.000
+ATOM      2  C01 MNAP    1      -0.506   1.000   0.000
+ATOM      3  C02 MNAP    1      -1.174   1.000   1.236
+ATOM      4  C03 MNAP    1      -2.563   1.002   1.292
+ATOM      5  C04 MNAP    1      -3.305   1.003   0.113
+ATOM      6  C05 MNAP    1      -2.668   1.003  -1.136
+ATOM      7  C06 MNAP    1      -3.431   1.006  -2.317
+ATOM      8  C07 MNAP    1      -2.815   1.005  -3.567
+ATOM      9  C08 MNAP    1      -1.430   1.000  -3.652
+ATOM     10  C09 MNAP    1      -0.661   0.997  -2.485
+ATOM     11  C0A MNAP    1      -1.253   0.998  -1.210
+ATOM     12  H0B MNAP    1       1.402   1.046   1.018
+ATOM     13  H0C MNAP    1       1.380   1.875  -0.538
+ATOM     14  H0D MNAP    1       1.379   0.084  -0.464
+ATOM     15  H0E MNAP    1      -0.609   1.000   2.166
+ATOM     16  H0F MNAP    1      -3.069   1.003   2.254
+ATOM     17  H0G MNAP    1      -4.391   1.005   0.180
+ATOM     18  H0H MNAP    1      -4.517   1.011  -2.268
+ATOM     19  H0I MNAP    1      -3.420   1.006  -4.470
+ATOM     20  H0J MNAP    1      -0.943   1.000  -4.623
+ATOM     21  H0K MNAP    1       0.421   0.995  -2.592
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    4    5 
+CONECT    5    6 
+CONECT    6    7 
+CONECT    7    8 
+CONECT    8    9 
+CONECT    9   10 
+CONECT    2   11 
+CONECT    1   12 
+CONECT    1   13 
+CONECT    1   14 
+CONECT    3   15 
+CONECT    4   16 
+CONECT    5   17 
+CONECT    7   18 
+CONECT    8   19 
+CONECT    9   20 
+CONECT   10   21 
+CONECT    6   11 
+CONECT   10   11 
+END

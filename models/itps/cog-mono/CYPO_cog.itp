@@ -1,0 +1,16 @@
+
+;;;;;; CYCLOPENTANONE
+
+[moleculetype]
+; molname       nrexcl
+  CYPO 		1
+
+[atoms]
+; id    type    resnr   residu  atom    cgnr    charge
+  1 	SC3 	1 	CYPO 	R1 	1 	0 
+  2 	TN6a	1 	CYPO 	O2 	2 	0  
+
+[bonds]
+; i j 	funct 	length 	force.c.
+  1 2   1       0.321    5000 ; cog
+

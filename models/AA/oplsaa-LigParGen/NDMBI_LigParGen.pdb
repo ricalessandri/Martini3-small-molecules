@@ -1,0 +1,87 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 NDMBI   1       1.000   1.000   0.000
+ATOM      2  N01 NDMBI   1      -0.457   1.000   0.000
+ATOM      3  C02 NDMBI   1      -1.116   1.000   1.304
+ATOM      4  C03 NDMBI   1      -1.152   0.494  -1.100
+ATOM      5  C04 NDMBI   1      -0.499   0.022  -2.254
+ATOM      6  C05 NDMBI   1      -1.200  -0.436  -3.379
+ATOM      7  C06 NDMBI   1      -2.596  -0.437  -3.389
+ATOM      8  C07 NDMBI   1      -3.262   0.029  -2.250
+ATOM      9  C08 NDMBI   1      -2.555   0.481  -1.133
+ATOM     10  C09 NDMBI   1      -3.378  -0.870  -4.613
+ATOM     11  N0A NDMBI   1      -4.244  -2.013  -4.274
+ATOM     12  C0B NDMBI   1      -3.745  -3.364  -4.316
+ATOM     13  C0C NDMBI   1      -5.482  -1.688  -4.846
+ATOM     14  C0D NDMBI   1      -6.613  -2.478  -4.954
+ATOM     15  C0E NDMBI   1      -7.774  -1.909  -5.482
+ATOM     16  C0F NDMBI   1      -7.789  -0.567  -5.890
+ATOM     17  C0G NDMBI   1      -6.640   0.221  -5.775
+ATOM     18  C0H NDMBI   1      -5.486  -0.352  -5.286
+ATOM     19  N0I NDMBI   1      -4.251   0.219  -5.057
+ATOM     20  C0J NDMBI   1      -3.758   1.491  -5.504
+ATOM     21  H0K NDMBI   1       1.400   1.442   0.919
+ATOM     22  H0M NDMBI   1       1.386   1.609  -0.826
+ATOM     23  H0N NDMBI   1       1.397  -0.018  -0.076
+ATOM     24  H0O NDMBI   1      -0.429   1.302   2.103
+ATOM     25  H0P NDMBI   1      -1.488   0.001   1.558
+ATOM     26  H0Q NDMBI   1      -1.943   1.718   1.325
+ATOM     27  H0R NDMBI   1       0.585   0.000  -2.306
+ATOM     28  H0S NDMBI   1      -0.640  -0.787  -4.242
+ATOM     29  H0T NDMBI   1      -4.351   0.080  -2.253
+ATOM     30  H0U NDMBI   1      -3.142   0.862  -0.304
+ATOM     31  H0V NDMBI   1      -2.700  -1.150  -5.436
+ATOM     32  H0W NDMBI   1      -2.685  -3.397  -4.039
+ATOM     33  H0X NDMBI   1      -3.846  -3.809  -5.312
+ATOM     34  H0Y NDMBI   1      -4.284  -3.987  -3.594
+ATOM     35  H0Z NDMBI   1      -6.604  -3.514  -4.638
+ATOM     36  H10 NDMBI   1      -8.675  -2.509  -5.575
+ATOM     37  H11 NDMBI   1      -8.700  -0.138  -6.297
+ATOM     38  H12 NDMBI   1      -6.669   1.265  -6.068
+ATOM     39  H13 NDMBI   1      -4.551   2.137  -5.889
+ATOM     40  H14 NDMBI   1      -3.008   1.366  -6.291
+ATOM     41  H15 NDMBI   1      -3.291   2.028  -4.670
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    2    4 
+CONECT    4    5 
+CONECT    5    6 
+CONECT    6    7 
+CONECT    7    8 
+CONECT    4    9 
+CONECT    7   10 
+CONECT   10   11 
+CONECT   11   12 
+CONECT   11   13 
+CONECT   13   14 
+CONECT   14   15 
+CONECT   15   16 
+CONECT   16   17 
+CONECT   13   18 
+CONECT   10   19 
+CONECT   19   20 
+CONECT    1   21 
+CONECT    1   22 
+CONECT    1   23 
+CONECT    3   24 
+CONECT    3   25 
+CONECT    3   26 
+CONECT    5   27 
+CONECT    6   28 
+CONECT    8   29 
+CONECT    9   30 
+CONECT   10   31 
+CONECT   12   32 
+CONECT   12   33 
+CONECT   12   34 
+CONECT   14   35 
+CONECT   15   36 
+CONECT   16   37 
+CONECT   17   38 
+CONECT   20   39 
+CONECT   20   40 
+CONECT   20   41 
+CONECT    8    9 
+CONECT   17   18 
+CONECT   18   19 
+END

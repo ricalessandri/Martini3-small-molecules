@@ -1,0 +1,52 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 CAFF    1       1.000   1.000   0.000
+ATOM      2  N01 CAFF    1      -0.441   1.000   0.000
+ATOM      3  C02 CAFF    1      -1.252   1.000   1.103
+ATOM      4  N03 CAFF    1      -2.527   0.998   0.767
+ATOM      5  C04 CAFF    1      -2.520   0.997  -0.595
+ATOM      6  N05 CAFF    1      -3.619   0.997  -1.419
+ATOM      7  C06 CAFF    1      -4.969   0.998  -0.893
+ATOM      8  C07 CAFF    1      -3.437   0.994  -2.805
+ATOM      9  O08 CAFF    1      -4.404   0.993  -3.573
+ATOM     10  N09 CAFF    1      -2.113   0.995  -3.279
+ATOM     11  C0A CAFF    1      -1.892   0.994  -4.712
+ATOM     12  C0B CAFF    1      -0.964   0.999  -2.480
+ATOM     13  O0C CAFF    1       0.180   0.998  -2.926
+ATOM     14  C0D CAFF    1      -1.255   1.001  -1.096
+ATOM     15  H0E CAFF    1       1.364   1.000   1.030
+ATOM     16  H0F CAFF    1       1.347   1.900  -0.513
+ATOM     17  H0G CAFF    1       1.347   0.100  -0.514
+ATOM     18  H0H CAFF    1      -0.868   1.002   2.116
+ATOM     19  H0I CAFF    1      -4.980   0.999   0.200
+ATOM     20  H0J CAFF    1      -5.493   0.109  -1.259
+ATOM     21  H0K CAFF    1      -5.492   1.887  -1.259
+ATOM     22  H0M CAFF    1      -2.822   0.993  -5.285
+ATOM     23  H0N CAFF    1      -1.308   0.107  -4.980
+ATOM     24  H0O CAFF    1      -1.311   1.883  -4.980
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    4    5 
+CONECT    5    6 
+CONECT    6    7 
+CONECT    6    8 
+CONECT    8    9 
+CONECT    8   10 
+CONECT   10   11 
+CONECT   10   12 
+CONECT   12   13 
+CONECT    2   14 
+CONECT    1   15 
+CONECT    1   16 
+CONECT    1   17 
+CONECT    3   18 
+CONECT    7   19 
+CONECT    7   20 
+CONECT    7   21 
+CONECT   11   22 
+CONECT   11   23 
+CONECT   11   24 
+CONECT    5   14 
+CONECT   12   14 
+END

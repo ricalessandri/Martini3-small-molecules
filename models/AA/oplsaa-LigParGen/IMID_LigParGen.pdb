@@ -1,0 +1,21 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 IMID    1       1.000   1.000   0.000
+ATOM      2  C01 IMID    1      -0.375   1.000   0.000
+ATOM      3  N02 IMID    1      -0.859   1.000   1.282
+ATOM      4  C03 IMID    1       0.204   1.000   2.053
+ATOM      5  N04 IMID    1       1.353   1.000   1.321
+ATOM      6  H05 IMID    1       2.293   1.001   1.694
+ATOM      7  H06 IMID    1       1.730   0.999  -0.797
+ATOM      8  H07 IMID    1      -1.041   1.001  -0.853
+ATOM      9  H08 IMID    1       0.203   1.001   3.135
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    1    5 
+CONECT    5    6 
+CONECT    1    7 
+CONECT    2    8 
+CONECT    4    9 
+CONECT    4    5 
+END

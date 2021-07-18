@@ -1,0 +1,64 @@
+
+;;;;;; ANTHRACENE
+;
+; Note(s):
+;   For minimizations, you may use define=-DFLEXIBLE to use a stiff-bond version of the topology that is more amenable to minimization.
+;   Schematic of the model:
+;
+;     2---5
+;   / |\  | \
+;  1  | 4 |  7
+;   \ |  \| /
+;     3---6
+;
+
+[ moleculetype ]
+; molname    nrexcl
+  ANTH         1 
+
+[ atoms ]
+; nr type resnr residue atom cgnr charge mass
+   1  TC5   0    ANTH    R1    1    0      0
+   2  TC5   0    ANTH    R2    2    0     63
+   3  TC5   0    ANTH    R3    3    0     63
+   4  TC5e  0    ANTH    R4    4    0      0
+   5  TC5   0    ANTH    R5    5    0     63
+   6  TC5   0    ANTH    R6    6    0     63
+   7  TC5   0    ANTH    R7    7    0      0
+
+[bonds]
+#ifndef FLEXIBLE
+[constraints]
+#endif
+; i  j  funct length
+  2  3   1     0.305 1000000 ; cog
+  2  5   1     0.409 1000000 ; cog
+  2  6   1     0.509 1000000 ; cog
+  3  6   1     0.409 1000000 ; cog
+  5  6   1     0.305 1000000 ; cog
+
+[ dihedrals ]
+; improper
+; i j k l  funct  ref.angle force_k
+  2 3 5 6    2      180       200   ; default for fused (bicyclic) compounds
+
+[ virtual_sites2 ]
+; sites positioned at 1-a
+; site  from      funct    a
+   4    2  6        1     0.500
+
+[ virtual_sites3 ]
+; peripheral virtual sites
+; site positioned as a linear combination of 3 atoms; the site is in the same plane
+; site  from      funct    a      b
+   1    4  2  3     1    1.010  1.010 ; cog
+   7    4  5  6     1    1.010  1.010 ; cog
+ 
+[ exclusions ]
+ 1 2 3 4 5 6 7
+ 2 3 4 5 6 7
+ 3 4 5 6 7
+ 4 5 6 7
+ 5 6 7
+ 6 7
+

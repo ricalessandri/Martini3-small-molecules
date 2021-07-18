@@ -1,0 +1,23 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 PYAZ    1       1.000   1.000   0.000
+ATOM      2  C01 PYAZ    1      -0.387   1.000   0.000
+ATOM      3  C02 PYAZ    1      -1.035   1.000   1.220
+ATOM      4  N03 PYAZ    1      -0.372   1.000   2.394
+ATOM      5  N04 PYAZ    1       0.989   1.000   2.391
+ATOM      6  C05 PYAZ    1       1.648   1.000   1.220
+ATOM      7  H06 PYAZ    1       1.561   1.001  -0.927
+ATOM      8  H07 PYAZ    1      -0.947   0.999  -0.928
+ATOM      9  H08 PYAZ    1      -2.116   0.999   1.294
+ATOM     10  H09 PYAZ    1       2.730   0.999   1.294
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    4    5 
+CONECT    1    6 
+CONECT    1    7 
+CONECT    2    8 
+CONECT    3    9 
+CONECT    6   10 
+CONECT    5    6 
+END

@@ -1,0 +1,83 @@
+
+;;;;;; N-DMBI aka (4-(1,3-DIMETHYL-2,3-DIHYDRO-1H-BENZOIMIDAZOL-2-YL)PHENYL)DIMETHYLAMINE
+;
+; Reference(s):
+;   J Liu, L Qiu, R Alessandri, X Qiu, G Portale, J Dong, W Talsma, G Ye, AA Sengrian, PCT Souza, MA Loi, RC Chiechi, SJ Marrink,
+;   JC Hummelen, LJA Koster, Enhancing molecular n-type doping of donor-acceptor copolymers by tailoring side chains,
+;   Adv. Mater. 2018, 1704630, [DOI: 10.1002/adma.201704630].
+;
+; Note(s):
+;   Bead types updated to the Martini 3 parameters from the Martini 3 open-beta model [DOI: 10.1002/adma.201704630].
+;   For minimizations, you may use define=-DFLEXIBLE to use a stiff-bond version of the topology that is more amenable to minimization.
+;
+
+[ moleculetype ]
+; molname         nrexcl
+  NDMBI              1
+
+[ atoms ]
+;   nr   type  resnr residue  atom   cgnr  charge  mass
+     1    TC5    1    NDMBI    R01     1      0     45  
+     2    TC5    1    NDMBI    R02     2      0     45  
+     3    TC5    1    NDMBI    R03     3      0      0  
+     4    TN1    1    NDMBI    N04     4      0     45  
+     5    TN1    1    NDMBI    N05     5      0     45  
+     6    TC4    1    NDMBI    R06     6      0         
+     7    TC5    1    NDMBI    R07     7      0         
+     8    TC5    1    NDMBI    R08     8      0         
+     9    SN1    1    NDMBI    N09     9      0         
+
+[ bonds ]
+  4  6      1     0.250  25000
+  5  6      1     0.250  25000
+#ifndef FLEXIBLE
+[ constraints ]
+#endif
+; i  j   funct   length
+  1  2      1     0.285 100000
+  1  4      1     0.347 100000
+  2  4      1     0.470 100000
+  2  5      1     0.347 100000
+  4  5      1     0.352 100000
+; dimethylaniline
+; i j   funct   length
+  7 6 	1 	0.285 100000 
+  8 6 	1 	0.285 100000 
+  8 7 	1 	0.285 100000 
+  9 7 	1 	0.330 100000 
+  9 8 	1 	0.330 100000 
+
+[ angles ]
+; benzimidazole-dimethylaniline connecting angles
+;  i   j   k    funct     angle       force.c.
+   3   6   9     10       138.0        250.0
+   4   5   9      2        71.0        250.0
+   5   4   9      2        71.0        250.0
+
+[ dihedrals ]
+; improper
+;   i    j     k     l    funct     ref.angle   force_k
+    1    2     4     5       2        180.00     200.00
+; dimethylaniline
+    9    8     7     6       2        180.00     200.00
+; benzimidazole-dimethylaniline connecting dihedrals
+    2    4     6     5       2        -28.00     200.00
+    2    4     9     5       2        -45.00     200.00
+; proper
+;   i    j     k     l    funct     coefficients
+; benzimidazole-dimethylaniline connecting dihedral
+    4    5     7     8       1          2.69      14.12  2  ; QM [DOI: 10.1039/c7ta06609k]
+    4    5     7     8       1          0.00       4.31  3  ; QM [DOI: 10.1039/c7ta06609k]
+    4    5     7     8       1          0.08       2.31  4  ; QM [DOI: 10.1039/c7ta06609k]
+
+[ virtual_sitesn ]
+;  VS beads in the centre of geometry
+; site funct  constructing atom indices
+    3    1       1  2  4  5
+
+[ exclusions ]
+ 1 4 5 7 8 
+ 2 4 5 7 8 
+ 4 7 8 9
+ 5 7 8 9
+

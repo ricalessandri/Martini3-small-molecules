@@ -1,0 +1,31 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  N00 ANIL    1       1.000   1.000   0.000
+ATOM      2  C01 ANIL    1      -0.401   1.000   0.000
+ATOM      3  C02 ANIL    1      -1.104   1.000   1.207
+ATOM      4  C03 ANIL    1      -2.496   1.121   1.222
+ATOM      5  C04 ANIL    1      -3.191   1.298   0.028
+ATOM      6  C05 ANIL    1      -2.492   1.352  -1.176
+ATOM      7  C06 ANIL    1      -1.104   1.236  -1.184
+ATOM      8  H07 ANIL    1       1.404   0.530   0.804
+ATOM      9  H08 ANIL    1       1.403   0.680  -0.875
+ATOM     10  H09 ANIL    1      -0.571   0.904   2.149
+ATOM     11  H0A ANIL    1      -3.033   1.079   2.165
+ATOM     12  H0B ANIL    1      -4.273   1.394   0.037
+ATOM     13  H0C ANIL    1      -3.029   1.486  -2.111
+ATOM     14  H0D ANIL    1      -0.570   1.329  -2.126
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    4    5 
+CONECT    5    6 
+CONECT    2    7 
+CONECT    1    8 
+CONECT    1    9 
+CONECT    3   10 
+CONECT    4   11 
+CONECT    5   12 
+CONECT    6   13 
+CONECT    7   14 
+CONECT    6    7 
+END

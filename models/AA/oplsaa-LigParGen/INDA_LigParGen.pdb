@@ -1,0 +1,34 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 INDA    1       1.000   1.000   0.000
+ATOM      2  C01 INDA    1      -0.396   1.000   0.000
+ATOM      3  C02 INDA    1      -1.120   1.000   1.197
+ATOM      4  C03 INDA    1      -0.381   1.000   2.384
+ATOM      5  N04 INDA    1      -0.768   1.001   3.699
+ATOM      6  H05 INDA    1      -1.713   1.003   4.063
+ATOM      7  N06 INDA    1       0.255   1.002   4.574
+ATOM      8  C07 INDA    1       1.333   1.002   3.785
+ATOM      9  C08 INDA    1       1.009   0.997   2.411
+ATOM     10  C09 INDA    1       1.718   1.000   1.203
+ATOM     11  H0A INDA    1       1.538   1.001  -0.946
+ATOM     12  H0B INDA    1      -0.929   0.999  -0.948
+ATOM     13  H0C INDA    1      -2.204   0.999   1.196
+ATOM     14  H0D INDA    1       2.314   1.003   4.241
+ATOM     15  H0E INDA    1       2.803   1.003   1.195
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    4    5 
+CONECT    5    6 
+CONECT    5    7 
+CONECT    7    8 
+CONECT    4    9 
+CONECT    1   10 
+CONECT    1   11 
+CONECT    2   12 
+CONECT    3   13 
+CONECT    8   14 
+CONECT   10   15 
+CONECT    8    9 
+CONECT    9   10 
+END

@@ -1,0 +1,21 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 THIO    1       1.000   1.000   0.000
+ATOM      2  C01 THIO    1      -0.425   1.000   0.000
+ATOM      3  C02 THIO    1      -0.941   1.000   1.278
+ATOM      4  S03 THIO    1       0.290   1.000   2.467
+ATOM      5  C04 THIO    1       1.516   1.000   1.278
+ATOM      6  H05 THIO    1       1.614   1.001  -0.892
+ATOM      7  H06 THIO    1      -1.040   1.001  -0.892
+ATOM      8  H07 THIO    1      -1.981   0.999   1.572
+ATOM      9  H08 THIO    1       2.556   1.001   1.572
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    1    5 
+CONECT    1    6 
+CONECT    2    7 
+CONECT    3    8 
+CONECT    5    9 
+CONECT    4    5 
+END

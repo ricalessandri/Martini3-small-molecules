@@ -1,0 +1,31 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 PYLI    1       1.000   1.000   0.000
+ATOM      2  C01 PYLI    1      -0.512   1.000   0.000
+ATOM      3  C02 PYLI    1      -0.834   1.000   1.479
+ATOM      4  N03 PYLI    1       0.199   0.165   2.102
+ATOM      5  C04 PYLI    1       1.348   0.125   1.192
+ATOM      6  H05 PYLI    1       1.373   2.019   0.158
+ATOM      7  H06 PYLI    1       1.416   0.620  -0.938
+ATOM      8  H07 PYLI    1      -0.891   0.087  -0.476
+ATOM      9  H08 PYLI    1      -0.929   1.866  -0.522
+ATOM     10  H09 PYLI    1      -1.840   0.620   1.683
+ATOM     11  H0A PYLI    1      -0.764   2.015   1.886
+ATOM     12  H0B PYLI    1      -0.160  -0.783   2.213
+ATOM     13  H0C PYLI    1       1.515  -0.907   0.864
+ATOM     14  H0D PYLI    1       2.257   0.473   1.693
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    1    5 
+CONECT    1    6 
+CONECT    1    7 
+CONECT    2    8 
+CONECT    2    9 
+CONECT    3   10 
+CONECT    3   11 
+CONECT    4   12 
+CONECT    5   13 
+CONECT    5   14 
+CONECT    4    5 
+END

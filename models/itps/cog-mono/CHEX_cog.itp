@@ -1,0 +1,16 @@
+
+;;;;;; CYCLOHEXANE
+
+[moleculetype]
+; molname       nrexcl
+  CHEX            1
+
+[atoms]
+; id    type    resnr   residu  atom    cgnr    charge
+  1   SC3   1     CHEX  R1    1     0 
+  2   SC3   1     CHEX  R2    2     0  
+
+[bonds]
+; i j  funct    length   force.c.
+  1 2   1       0.378    5000 ; cog
+

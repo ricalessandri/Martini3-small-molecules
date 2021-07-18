@@ -1,0 +1,23 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 PYMI    1       1.000   1.000   0.000
+ATOM      2  C01 PYMI    1      -0.376   1.000   0.000
+ATOM      3  N02 PYMI    1      -1.119   1.000   1.122
+ATOM      4  C03 PYMI    1      -0.429   1.000   2.274
+ATOM      5  N04 PYMI    1       0.908   1.000   2.393
+ATOM      6  C05 PYMI    1       1.595   1.000   1.241
+ATOM      7  H06 PYMI    1       1.575   0.999  -0.915
+ATOM      8  H07 PYMI    1      -0.937   0.999  -0.930
+ATOM      9  H08 PYMI    1      -1.007   1.001   3.191
+ATOM     10  H09 PYMI    1       2.676   0.999   1.344
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    4    5 
+CONECT    1    6 
+CONECT    1    7 
+CONECT    2    8 
+CONECT    4    9 
+CONECT    6   10 
+CONECT    5    6 
+END

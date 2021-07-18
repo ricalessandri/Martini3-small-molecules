@@ -1,0 +1,16 @@
+
+;;;;;; TETRAHYDROTHIOPHENE
+
+[moleculetype]
+; molname       nrexcl
+  THT             1
+
+[atoms]
+; id    type    resnr   residu  atom    cgnr    charge
+  1   SC6   1     THT   S1    1     0 
+  2   TC3   1     THT   R2    2     0  
+
+[bonds]
+; i j   funct  length   force.c.
+  1 2   1       0.291     5000 ; cog
+

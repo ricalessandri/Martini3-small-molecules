@@ -1,0 +1,42 @@
+
+;;;;;; 3-HEXYL-THIOPHENE
+;
+; Reference(s):
+;   R Alessandri, JJ Uusitalo, AH de Vries, RWA Havenith, SJ Marrink, Bulk Heterojunction Morphologies with Atomistic Resolution 
+;   from Coarse-Grain Solvent Evaporation Simulations, JACS 2017, 139, 3697 [DOI: 10.1021/jacs.6b11717]
+;
+; Note(s):
+;   Topology adpated from the Martini 2.2 P3HT model [DOI: 10.1021/jacs.6b11717] to Martini 3. 
+;   THIOphene bonded parameters are from the optimized Martini 3 THIO model.
+;
+
+[moleculetype]
+; molname       nrexcl
+  3HT              1
+
+[atoms]
+;  nr  type  resnr residue  atom  cgnr    charge   mass
+    1   TC6    1    3HT      S1    1        0      
+    2   TC5    1    3HT      R2    2        0      
+    3   TC5    1    3HT      R3    3        0      
+    4   SC2    1    3HT      C4    4        0       
+    5   SC2    1    3HT      C5    5        0       
+
+[bonds]
+;  atoms    funct  length       force_k
+    4    5    1    0.360         5000 ; [DOI:10.1021/jacs.6b11717]
+
+[constraints]
+;   i    j  funct length
+; thiophene
+    1    2    1   0.270 ; Martini 3 THIO model
+    1    3    1   0.270 ; Martini 3 THIO model
+    2    3    1   0.280 ; Martini 3 THIO model
+; thiophene-hexyl
+    3    4    1   0.285 ; [DOI:10.1021/jacs.6b11717]
+
+[angles]
+;   i    j    k   funct   angle   force_k
+    1    3    4    2       180      250 ; [DOI:10.1021/jacs.6b11717]
+    3    4    5    1       155       25 ; [DOI:10.1021/jacs.6b11717]
+

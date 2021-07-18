@@ -1,0 +1,16 @@
+
+;;;;;; PIPERIDINE
+
+[moleculetype]
+; molname       nrexcl
+  PIPER           1
+
+[atoms]
+; id  type  resnr  residu  atom  cgnr  charge
+   1  SN6d    1     PIPER   N1    1     0 
+   2  SC3     1     PIPER   R2    2     0  
+
+[bonds]
+; i j   funct  length   force.c.
+  1 2   1       0.378    5000 ; cog
+

@@ -1,0 +1,19 @@
+
+;;;;;; 1,2,4-TRICHLOROBENZENE
+
+[ moleculetype ]
+; molname       nrexcl
+  TCLBZ         1
+
+[ atoms ]
+; id    type    resnr   residu  atom    cgnr    charge
+  1     SX3     1       TCLBZ   R1      1       0
+  2     SX3     1       TCLBZ   R2      2       0
+  3     SX3     1       TCLBZ   R3      3       0
+
+[ constraints ]
+; i j   funct   length
+  1 2   1       0.316 ; cog 
+  2 3   1       0.316 ; cog
+  1 3   1       0.316 ; cog
+

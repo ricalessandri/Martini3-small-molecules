@@ -1,0 +1,51 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 PCYM    1       1.000   1.000   0.000
+ATOM      2  C01 PCYM    1      -0.398   1.000   0.000
+ATOM      3  C02 PCYM    1      -1.107   1.000   1.205
+ATOM      4  C03 PCYM    1      -0.395   1.000   2.408
+ATOM      5  C04 PCYM    1       1.002   1.000   2.405
+ATOM      6  C05 PCYM    1       1.719   1.000   1.205
+ATOM      7  C06 PCYM    1       3.236   1.002   1.232
+ATOM      8  C07 PCYM    1       3.827  -0.247   0.573
+ATOM      9  C08 PCYM    1       3.799   2.273   0.590
+ATOM     10  C09 PCYM    1      -2.607   1.002   1.220
+ATOM     11  H0A PCYM    1       1.521   1.001  -0.954
+ATOM     12  H0B PCYM    1      -0.926   1.001  -0.951
+ATOM     13  H0C PCYM    1      -0.926   1.001   3.357
+ATOM     14  H0D PCYM    1       1.527   1.001   3.357
+ATOM     15  H0E PCYM    1       3.565   0.995   2.279
+ATOM     16  H0F PCYM    1       3.560  -0.318  -0.487
+ATOM     17  H0G PCYM    1       3.468  -1.155   1.069
+ATOM     18  H0H PCYM    1       4.920  -0.236   0.640
+ATOM     19  H0I PCYM    1       3.564   2.331  -0.478
+ATOM     20  H0J PCYM    1       4.890   2.305   0.692
+ATOM     21  H0K PCYM    1       3.390   3.168   1.072
+ATOM     22  H0M PCYM    1      -3.019   1.094   0.210
+ATOM     23  H0N PCYM    1      -2.975   1.851   1.806
+ATOM     24  H0O PCYM    1      -2.981   0.071   1.657
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    4    5 
+CONECT    1    6 
+CONECT    6    7 
+CONECT    7    8 
+CONECT    7    9 
+CONECT    3   10 
+CONECT    1   11 
+CONECT    2   12 
+CONECT    4   13 
+CONECT    5   14 
+CONECT    7   15 
+CONECT    8   16 
+CONECT    8   17 
+CONECT    8   18 
+CONECT    9   19 
+CONECT    9   20 
+CONECT    9   21 
+CONECT   10   22 
+CONECT   10   23 
+CONECT   10   24 
+CONECT    5    6 
+END

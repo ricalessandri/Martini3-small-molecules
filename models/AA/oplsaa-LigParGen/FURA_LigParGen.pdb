@@ -1,0 +1,21 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 FURA    1       1.000   1.000   0.000
+ATOM      2  C01 FURA    1      -0.416   1.000   0.000
+ATOM      3  C02 FURA    1      -0.797   1.000   1.322
+ATOM      4  O03 FURA    1       0.295   1.000   2.129
+ATOM      5  C04 FURA    1       1.381   1.000   1.322
+ATOM      6  H05 FURA    1       1.661   0.999  -0.855
+ATOM      7  H06 FURA    1      -1.077   1.001  -0.855
+ATOM      8  H07 FURA    1      -1.754   0.999   1.826
+ATOM      9  H08 FURA    1       2.338   1.001   1.826
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    1    5 
+CONECT    1    6 
+CONECT    2    7 
+CONECT    3    8 
+CONECT    5    9 
+CONECT    4    5 
+END

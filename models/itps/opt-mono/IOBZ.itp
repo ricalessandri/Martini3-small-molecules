@@ -1,0 +1,19 @@
+
+;;;;;; IODOBENZENE
+
+[moleculetype]
+; molname       nrexcl
+  IOBZ            1
+
+[atoms]
+; id    type    resnr   residu  atom    cgnr    charge
+  1      X1       1      IOBZ     I       1       0
+  2     TC5       1      IOBZ    R2       2       0
+  3     TC5       1      IOBZ    R3       3       0
+
+[constraints]
+; i j   funct   length
+  1 2       1     0.314 ; cog
+  2 3       1     0.290 ; cog
+  1 3       1     0.314 ; cog
+

@@ -1,0 +1,19 @@
+
+;;;;;; IMIDAZOLE
+
+[moleculetype]
+; molname       nrexcl
+  IMID            1
+
+[atoms]
+; id    type    resnr   residu  atom    cgnr    charge
+  1   TN5a  1     IMID  N1    1     0 
+  2   TN6d  1     IMID  N2    2     0 
+  3   TC5   1     IMID  R3    3     0 
+
+[constraints]
+; i j   funct   length
+  1 2       1     0.265 
+  2 3       1     0.270 
+  1 3       1     0.265 
+

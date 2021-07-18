@@ -1,0 +1,39 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 MBZOA   1       1.000   1.000   0.000
+ATOM      2  O01 MBZOA   1      -0.429   1.000   0.000
+ATOM      3  C02 MBZOA   1      -0.976   1.000   1.241
+ATOM      4  O03 MBZOA   1      -0.363   1.000   2.297
+ATOM      5  C04 MBZOA   1      -2.456   0.936   1.155
+ATOM      6  C05 MBZOA   1      -3.156   1.386   0.028
+ATOM      7  C06 MBZOA   1      -4.550   1.305  -0.003
+ATOM      8  C07 MBZOA   1      -5.243   0.777   1.087
+ATOM      9  C08 MBZOA   1      -4.546   0.330   2.209
+ATOM     10  C09 MBZOA   1      -3.157   0.407   2.246
+ATOM     11  H0A MBZOA   1       1.339   0.763  -1.012
+ATOM     12  H0B MBZOA   1       1.400   0.239   0.679
+ATOM     13  H0C MBZOA   1       1.369   1.993   0.270
+ATOM     14  H0D MBZOA   1      -2.626   1.800  -0.827
+ATOM     15  H0E MBZOA   1      -5.095   1.655  -0.876
+ATOM     16  H0F MBZOA   1      -6.329   0.716   1.063
+ATOM     17  H0G MBZOA   1      -5.086  -0.080   3.059
+ATOM     18  H0H MBZOA   1      -2.618   0.055   3.124
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    3    5 
+CONECT    5    6 
+CONECT    6    7 
+CONECT    7    8 
+CONECT    8    9 
+CONECT    5   10 
+CONECT    1   11 
+CONECT    1   12 
+CONECT    1   13 
+CONECT    6   14 
+CONECT    7   15 
+CONECT    8   16 
+CONECT    9   17 
+CONECT   10   18 
+CONECT    9   10 
+END

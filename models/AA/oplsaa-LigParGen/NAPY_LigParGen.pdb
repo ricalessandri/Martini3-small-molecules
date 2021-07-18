@@ -1,0 +1,36 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 NAPY    1       1.000   1.000   0.000
+ATOM      2  C01 NAPY    1      -0.381   1.000   0.000
+ATOM      3  C02 NAPY    1      -1.033   1.000   1.231
+ATOM      4  C03 NAPY    1      -0.317   1.000   2.417
+ATOM      5  N04 NAPY    1      -0.972   1.001   3.598
+ATOM      6  C05 NAPY    1      -0.226   1.003   4.721
+ATOM      7  C06 NAPY    1       1.155   1.003   4.717
+ATOM      8  C07 NAPY    1       1.804   1.001   3.485
+ATOM      9  C08 NAPY    1       1.091   1.000   2.302
+ATOM     10  N09 NAPY    1       1.744   1.000   1.126
+ATOM     11  H0A NAPY    1       1.561   1.001  -0.930
+ATOM     12  H0B NAPY    1      -0.938   1.001  -0.930
+ATOM     13  H0C NAPY    1      -2.119   1.001   1.268
+ATOM     14  H0D NAPY    1      -0.787   1.005   5.652
+ATOM     15  H0E NAPY    1       1.715   1.005   5.646
+ATOM     16  H0F NAPY    1       2.890   1.002   3.445
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    4    5 
+CONECT    5    6 
+CONECT    6    7 
+CONECT    7    8 
+CONECT    4    9 
+CONECT    1   10 
+CONECT    1   11 
+CONECT    2   12 
+CONECT    3   13 
+CONECT    6   14 
+CONECT    7   15 
+CONECT    8   16 
+CONECT    8    9 
+CONECT    9   10 
+END

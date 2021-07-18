@@ -1,0 +1,24 @@
+[ to ]
+martini
+
+[ martini ]
+B0 B1 B2 B3 
+
+[ atoms ]
+1	C00	B3
+2	O01	B3
+3	C02	B3
+4	C03	B1
+5	C04	B1
+6	C06	B2
+7	C07	B2
+8	N08	B0
+9	O09	B0
+10	O0A	B0
+11	H0B	B3
+12	H0C	B3
+13	H0D	B3
+14	H0E	B1
+15	H0F	B1
+16	H0G	B2
+17	H0H	B2

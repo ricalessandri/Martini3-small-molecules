@@ -1,0 +1,45 @@
+
+;;;;;; 1-CHLORO-NAPHTHALENE
+;
+; Note(s):
+;   For minimizations, you may use define=-DFLEXIBLE to use a stiff-bond version of the topology that is more amenable to minimization.
+;
+
+[ moleculetype ]
+; molname    nrexcl
+  CNAP         1 
+
+[ atoms ]
+; nr type resnr residue atom cgnr charge mass
+   1  SX3   0    CNAP    Cl    1    0     63   
+   2  TC5   0    CNAP    R2    2    0     45   
+   3  TC5   0    CNAP    R3    3    0      0
+   4  TC5   0    CNAP    R4    4    0     45   
+   5  TC5   0    CNAP    R5    5    0     45   
+
+[bonds]
+#ifndef FLEXIBLE
+[constraints]
+#endif
+; i  j  funct length
+  1  2   1     0.305 1000000 ; cog
+  1  4   1     0.422 1000000 ; cog
+  1  5   1     0.517 1000000 ; cog
+  2  5   1     0.413 1000000 ; cog
+  4  5   1     0.290 1000000 ; cog
+
+[ dihedrals ]
+; improper
+; i j k l  funct  ref.angle force_k
+  1 2 4 5    2      180       200  ; default for fused bicyclic compounds 
+
+[ virtual_sitesn ]
+; site funct  constructing atom indices
+   3     1     1 2 4 5
+
+[ exclusions ]
+ 1 2 3 4 5
+ 2 3 4 5
+ 3 4 5
+ 4 5
+

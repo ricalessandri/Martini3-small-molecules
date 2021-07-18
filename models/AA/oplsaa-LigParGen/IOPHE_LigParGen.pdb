@@ -1,0 +1,29 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 IOPHE   1       1.000   1.000   0.000
+ATOM      2  C01 IOPHE   1      -0.395   1.000   0.000
+ATOM      3  C02 IOPHE   1      -1.096   1.000   1.209
+ATOM      4  C03 IOPHE   1      -0.395   1.000   2.417
+ATOM      5  C04 IOPHE   1       1.002   1.000   2.409
+ATOM      6  C05 IOPHE   1       1.696   1.000   1.209
+ATOM      7  O06 IOPHE   1       1.748   1.001   3.554
+ATOM      8  I07 IOPHE   1      -1.472   0.998   4.204
+ATOM      9  H08 IOPHE   1       1.544   1.001  -0.941
+ATOM     10  H09 IOPHE   1      -0.937   0.999  -0.943
+ATOM     11  H0A IOPHE   1      -2.183   0.999   1.189
+ATOM     12  H0B IOPHE   1       2.783   1.001   1.212
+ATOM     13  H0C IOPHE   1       1.126   1.002   4.303
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    4    5 
+CONECT    1    6 
+CONECT    5    7 
+CONECT    4    8 
+CONECT    1    9 
+CONECT    2   10 
+CONECT    3   11 
+CONECT    6   12 
+CONECT    7   13 
+CONECT    5    6 
+END

@@ -1,0 +1,45 @@
+
+;;;;;; BENZOTHIOPHENE
+;
+; Note(s):
+;   For minimizations, you may use define=-DFLEXIBLE to use a stiff-bond version of the topology that is more amenable to minimization.
+;
+
+[moleculetype]
+; molname    nrexcl
+  BZTH         1 
+
+[atoms]
+; nr type resnr residue atom cgnr charge mass
+   1  TC5   1    BZTH    R1    1    0     45   
+   2  TC5   1    BZTH    R2    2    0     45   
+   3  TC5   1    BZTH    R3    3    0      0
+   4  TC6   1    BZTH    S4    4    0     45   
+   5  TC5   1    BZTH    R5    5    0     45   
+
+[bonds]
+#ifndef FLEXIBLE
+[constraints]
+#endif
+; i  j  funct length
+  1  2   1     0.291 1000000 ; cog
+  1  4   1     0.365 1000000 ; cog
+  1  5   1     0.488 1000000 ; cog
+  2  5   1     0.426 1000000 ; cog
+  4  5   1     0.240 1000000 ; cog
+
+[dihedrals]
+; improper
+; i j k l  funct  ref.angle force_k
+  1 2 4 5    2      180       200  ; default for fused bicyclic compounds 
+
+[virtual_sitesn]
+; site funct  constructing atom indices
+   3     1     1 2 4 5
+
+[exclusions]
+ 1 2 3 4 5
+ 2 3 4 5
+ 3 4 5
+ 4 5
+

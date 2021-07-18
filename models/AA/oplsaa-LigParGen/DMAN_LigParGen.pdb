@@ -1,0 +1,43 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 DMAN    1       1.000   1.000   0.000
+ATOM      2  N01 DMAN    1      -0.458   1.000   0.000
+ATOM      3  C02 DMAN    1      -1.118   1.000   1.302
+ATOM      4  C03 DMAN    1      -1.163   0.585  -1.130
+ATOM      5  C04 DMAN    1      -0.518   0.204  -2.321
+ATOM      6  C05 DMAN    1      -1.228  -0.212  -3.456
+ATOM      7  C06 DMAN    1      -2.615  -0.259  -3.432
+ATOM      8  C07 DMAN    1      -3.285   0.110  -2.274
+ATOM      9  C08 DMAN    1      -2.569   0.524  -1.145
+ATOM     10  H09 DMAN    1       1.400   1.402   0.938
+ATOM     11  H0A DMAN    1       1.389   1.643  -0.798
+ATOM     12  H0B DMAN    1       1.395  -0.015  -0.118
+ATOM     13  H0C DMAN    1      -0.410   1.192   2.115
+ATOM     14  H0D DMAN    1      -1.589   0.032   1.508
+ATOM     15  H0E DMAN    1      -1.872   1.793   1.352
+ATOM     16  H0F DMAN    1       0.565   0.220  -2.396
+ATOM     17  H0G DMAN    1      -0.687  -0.496  -4.354
+ATOM     18  H0H DMAN    1      -3.168  -0.579  -4.310
+ATOM     19  H0I DMAN    1      -4.370   0.080  -2.241
+ATOM     20  H0J DMAN    1      -3.145   0.802  -0.268
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    2    4 
+CONECT    4    5 
+CONECT    5    6 
+CONECT    6    7 
+CONECT    7    8 
+CONECT    4    9 
+CONECT    1   10 
+CONECT    1   11 
+CONECT    1   12 
+CONECT    3   13 
+CONECT    3   14 
+CONECT    3   15 
+CONECT    5   16 
+CONECT    6   17 
+CONECT    7   18 
+CONECT    8   19 
+CONECT    9   20 
+CONECT    8    9 
+END

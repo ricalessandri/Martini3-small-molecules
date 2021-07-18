@@ -1,0 +1,21 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 CPR     1       1.000   1.000   0.000
+ATOM      2  C01 CPR     1      -0.502   1.000   0.000
+ATOM      3  C02 CPR     1       0.248   1.000  -1.301
+ATOM      4  H03 CPR     1       1.508   0.088   0.293
+ATOM      5  H04 CPR     1       1.508   1.912   0.293
+ATOM      6  H05 CPR     1      -1.011   1.911   0.293
+ATOM      7  H06 CPR     1      -1.010   0.088   0.293
+ATOM      8  H07 CPR     1       0.248   1.912  -1.887
+ATOM      9  H08 CPR     1       0.248   0.088  -1.887
+TER 
+CONECT    1    2 
+CONECT    1    3 
+CONECT    1    4 
+CONECT    1    5 
+CONECT    2    6 
+CONECT    2    7 
+CONECT    3    8 
+CONECT    3    9 
+CONECT    2    3 
+END

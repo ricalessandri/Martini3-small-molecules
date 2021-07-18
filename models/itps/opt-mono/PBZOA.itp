@@ -1,0 +1,39 @@
+
+;;;;;; PROPYL-BENZOATE
+;
+; Note(s):
+;   For minimizations, you may use define=-DFLEXIBLE to use a stiff-bond version of the topology that is more amenable to minimization.
+;
+
+[moleculetype]
+; molname       nrexcl
+ PBZOA            1
+
+[atoms]
+; id   type    resnr   residu  atom    cgnr    charge
+   1   TC5       1      PBZOA   R1      1        0
+   2   TC5       1      PBZOA   R2      2        0
+   3   TC5       1      PBZOA   R3      3        0
+   4   SN4a      1      PBZOA   O4      4        0
+   5   SC2       1      PBZOA   C5      5        0
+
+[bonds]
+; i j   funct   length  force.c.
+  4 5     1      0.320   7500 ; cog 
+#ifndef FLEXIBLE
+[constraints]
+#endif
+; i j   funct   length
+  1 2     1      0.290 1000000 ; cog (benzene)
+  1 3     1      0.290 1000000 ; cog (benzene)
+  2 3     1      0.290 1000000 ; cog (benzene)
+  2 4     1      0.285 1000000 ; cog 
+  3 4     1      0.285 1000000 ; cog 
+
+[dihedrals]
+; i j k l  funct  ref.angle   force_k
+  1 2 3 4    2      180.00      150
+
+[exclusions]
+  1 4
+

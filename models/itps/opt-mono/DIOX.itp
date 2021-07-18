@@ -1,0 +1,16 @@
+
+;;;;;; 1,4-DIOXANE
+
+[moleculetype]
+; molname       nrexcl
+  DIOX            1
+
+[atoms]
+; id    type    resnr   residu  atom    cgnr    charge
+  1   SN3a  1    DIOX   O1    1     0 
+  2   SN3a  1    DIOX   O2    2     0  
+
+[bonds]
+; i j   funct  length   force.c.
+  1 2   1       0.300    5000
+

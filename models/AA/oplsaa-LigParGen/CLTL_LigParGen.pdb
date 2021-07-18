@@ -1,0 +1,33 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 CLTL    1       1.000   1.000   0.000
+ATOM      2  C01 CLTL    1      -0.503   1.000   0.000
+ATOM      3  C02 CLTL    1      -1.285   1.000   1.165
+ATOM      4  C03 CLTL    1      -2.682   1.002   1.081
+ATOM      5  C04 CLTL    1      -3.313   1.003  -0.163
+ATOM      6  C05 CLTL    1      -2.547   1.003  -1.324
+ATOM      7  C06 CLTL    1      -1.156   1.002  -1.246
+ATOM      8  Cl0 CLTL    1      -0.587   1.000   2.745
+ATOM      9  H08 CLTL    1       1.435   0.900   0.997
+ATOM     10  H09 CLTL    1       1.370   1.936  -0.432
+ATOM     11  H0A CLTL    1       1.370   0.160  -0.597
+ATOM     12  H0B CLTL    1      -3.285   1.003   1.986
+ATOM     13  H0C CLTL    1      -4.398   1.005  -0.222
+ATOM     14  H0D CLTL    1      -3.033   1.005  -2.297
+ATOM     15  H0E CLTL    1      -0.573   1.003  -2.165
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    4    5 
+CONECT    5    6 
+CONECT    2    7 
+CONECT    3    8 
+CONECT    1    9 
+CONECT    1   10 
+CONECT    1   11 
+CONECT    4   12 
+CONECT    5   13 
+CONECT    6   14 
+CONECT    7   15 
+CONECT    6    7 
+END

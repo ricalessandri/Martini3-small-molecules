@@ -1,0 +1,31 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  O00 DIOX    1       1.000   1.000   0.000
+ATOM      2  C01 DIOX    1      -0.435   1.000   0.000
+ATOM      3  C02 DIOX    1      -0.971   1.000   1.431
+ATOM      4  O03 DIOX    1      -0.479   2.140   2.152
+ATOM      5  C04 DIOX    1       0.956   2.138   2.149
+ATOM      6  C05 DIOX    1       1.488   2.140   0.723
+ATOM      7  H06 DIOX    1      -0.774   0.107  -0.534
+ATOM      8  H07 DIOX    1      -0.782   1.884  -0.547
+ATOM      9  H08 DIOX    1      -0.663   0.092   1.964
+ATOM     10  H09 DIOX    1      -2.064   1.045   1.429
+ATOM     11  H0A DIOX    1       1.303   1.252   2.693
+ATOM     12  H0B DIOX    1       1.297   3.029   2.684
+ATOM     13  H0C DIOX    1       2.582   2.097   0.724
+ATOM     14  H0D DIOX    1       1.177   3.047   0.191
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    4    5 
+CONECT    1    6 
+CONECT    2    7 
+CONECT    2    8 
+CONECT    3    9 
+CONECT    3   10 
+CONECT    5   11 
+CONECT    5   12 
+CONECT    6   13 
+CONECT    6   14 
+CONECT    5    6 
+END

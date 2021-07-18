@@ -1,0 +1,27 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  Cl0 CLBZ    1       1.000   1.000   0.000
+ATOM      2  C01 CLBZ    1      -0.721   1.000   0.000
+ATOM      3  C02 CLBZ    1      -1.413   1.000   1.210
+ATOM      4  C03 CLBZ    1      -2.809   0.998   1.209
+ATOM      5  C04 CLBZ    1      -3.504   0.997  -0.001
+ATOM      6  C05 CLBZ    1      -2.806   0.997  -1.209
+ATOM      7  C06 CLBZ    1      -1.411   0.998  -1.211
+ATOM      8  H07 CLBZ    1      -0.872   1.002   2.153
+ATOM      9  H08 CLBZ    1      -3.353   1.000   2.150
+ATOM     10  H09 CLBZ    1      -4.591   0.995  -0.001
+ATOM     11  H0A CLBZ    1      -3.350   0.995  -2.151
+ATOM     12  H0B CLBZ    1      -0.870   1.000  -2.153
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    4    5 
+CONECT    5    6 
+CONECT    2    7 
+CONECT    3    8 
+CONECT    4    9 
+CONECT    5   10 
+CONECT    6   11 
+CONECT    7   12 
+CONECT    6    7 
+END

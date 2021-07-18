@@ -1,0 +1,11 @@
+
+;;;;;; CYCLOPROPANE
+
+[moleculetype]
+; molname       nrexcl
+  CPR             1
+
+[atoms]
+; id    type    resnr   residu  atom    cgnr    charge
+  1   SC3   1     CPR   R1    1     0 
+

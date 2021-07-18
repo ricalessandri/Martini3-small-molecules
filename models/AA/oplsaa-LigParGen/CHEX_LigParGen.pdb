@@ -1,0 +1,39 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 CHEX    1       1.000   1.000   0.000
+ATOM      2  C01 CHEX    1      -0.526   1.000   0.000
+ATOM      3  C02 CHEX    1      -1.087   1.000   1.420
+ATOM      4  C03 CHEX    1      -0.523   2.153   2.245
+ATOM      5  C04 CHEX    1       1.004   2.150   2.242
+ATOM      6  C05 CHEX    1       1.562   2.152   0.829
+ATOM      7  H06 CHEX    1       1.368   1.073  -1.029
+ATOM      8  H07 CHEX    1       1.363   0.048   0.406
+ATOM      9  H08 CHEX    1      -0.895   0.122  -0.542
+ATOM     10  H09 CHEX    1      -0.890   1.886  -0.535
+ATOM     11  H0A CHEX    1      -0.842   0.048   1.907
+ATOM     12  H0B CHEX    1      -2.180   1.072   1.384
+ATOM     13  H0C CHEX    1      -0.890   2.083   3.275
+ATOM     14  H0D CHEX    1      -0.886   3.104   1.837
+ATOM     15  H0E CHEX    1       1.366   1.262   2.776
+ATOM     16  H0F CHEX    1       1.375   3.026   2.787
+ATOM     17  H0G CHEX    1       2.655   2.081   0.864
+ATOM     18  H0H CHEX    1       1.318   3.103   0.342
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    4    5 
+CONECT    1    6 
+CONECT    1    7 
+CONECT    1    8 
+CONECT    2    9 
+CONECT    2   10 
+CONECT    3   11 
+CONECT    3   12 
+CONECT    4   13 
+CONECT    4   14 
+CONECT    5   15 
+CONECT    5   16 
+CONECT    6   17 
+CONECT    6   18 
+CONECT    5    6 
+END

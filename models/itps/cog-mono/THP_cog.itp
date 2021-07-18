@@ -1,0 +1,16 @@
+
+;;;;;; TETRAHYDROPYRAN
+
+[moleculetype]
+; molname       nrexcl
+  THP             1
+
+[atoms]
+; id    type    resnr   residu  atom    cgnr    charge
+  1   SN4a  1     THP   O1    1     0 
+  2   SC3   1     THP   R2    2     0  
+
+[bonds]
+; i j   funct  length   force.c.
+  1 2   1       0.329    5000   ; cog
+

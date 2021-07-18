@@ -1,0 +1,29 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  S00 THT     1       1.000   1.000   0.000
+ATOM      2  C01 THT     1      -0.811   1.000   0.000
+ATOM      3  C02 THT     1      -1.187   1.000   1.471
+ATOM      4  C03 THT     1      -0.233   0.033   2.158
+ATOM      5  C04 THT     1       1.171   0.374   1.695
+ATOM      6  H05 THT     1      -1.160   0.089  -0.497
+ATOM      7  H06 THT     1      -1.211   1.869  -0.530
+ATOM      8  H07 THT     1      -2.229   0.693   1.608
+ATOM      9  H08 THT     1      -1.083   2.007   1.894
+ATOM     10  H09 THT     1      -0.483  -0.997   1.877
+ATOM     11  H0A THT     1      -0.316   0.100   3.246
+ATOM     12  H0B THT     1       1.822  -0.505   1.716
+ATOM     13  H0C THT     1       1.616   1.153   2.319
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    1    5 
+CONECT    2    6 
+CONECT    2    7 
+CONECT    3    8 
+CONECT    3    9 
+CONECT    4   10 
+CONECT    4   11 
+CONECT    5   12 
+CONECT    5   13 
+CONECT    4    5 
+END

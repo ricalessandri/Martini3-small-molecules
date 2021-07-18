@@ -1,0 +1,39 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 MXYLE   1       1.000   1.000   0.000
+ATOM      2  C01 MXYLE   1      -0.500   1.000   0.000
+ATOM      3  C02 MXYLE   1      -1.218   1.000   1.200
+ATOM      4  C03 MXYLE   1      -2.613   1.002   1.186
+ATOM      5  C04 MXYLE   1      -3.301   1.003  -0.028
+ATOM      6  C05 MXYLE   1      -2.598   1.003  -1.237
+ATOM      7  C06 MXYLE   1      -1.198   1.002  -1.215
+ATOM      8  C07 MXYLE   1      -3.324   1.006  -2.550
+ATOM      9  H08 MXYLE   1       1.401   0.871   1.011
+ATOM     10  H09 MXYLE   1       1.376   1.948  -0.397
+ATOM     11  H0A MXYLE   1       1.378   0.176  -0.614
+ATOM     12  H0B MXYLE   1      -0.695   1.000   2.154
+ATOM     13  H0C MXYLE   1      -3.164   1.003   2.122
+ATOM     14  H0D MXYLE   1      -4.388   1.005  -0.021
+ATOM     15  H0E MXYLE   1      -0.644   1.000  -2.152
+ATOM     16  H0F MXYLE   1      -4.404   0.888  -2.411
+ATOM     17  H0G MXYLE   1      -2.978   0.177  -3.175
+ATOM     18  H0H MXYLE   1      -3.150   1.952  -3.073
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    4    5 
+CONECT    5    6 
+CONECT    2    7 
+CONECT    6    8 
+CONECT    1    9 
+CONECT    1   10 
+CONECT    1   11 
+CONECT    3   12 
+CONECT    4   13 
+CONECT    5   14 
+CONECT    7   15 
+CONECT    8   16 
+CONECT    8   17 
+CONECT    8   18 
+CONECT    6    7 
+END

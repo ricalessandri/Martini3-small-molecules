@@ -1,0 +1,32 @@
+
+;;;;;; CUMENE
+
+[moleculetype]
+; molname       nrexcl
+  CUME            1
+
+[atoms]
+; id    type    resnr   residu  atom    cgnr    charge
+  1      SC3      1      CUME    R1       1       0 
+  2      TC5      1      CUME    R2       2       0 
+  3      TC5      1      CUME    R3       3       0 
+  4      TC5      1      CUME    R4       4       0 
+
+[bonds]
+; i j   funct   length  force.c.
+  1 2     1       0.310  20000 ; cog
+  1 3     1       0.310  20000 ; cog
+
+[constraints]
+; i j   funct   length
+  2 3     1       0.290 ; benzene
+  2 4     1       0.290 ; benzene
+  3 4     1       0.290 ; benzene
+
+[dihedrals]
+; i j k l  funct  ref.angle   force_k
+  1 2 3 4    2      180.00      100
+
+[exclusions]
+  1 4
+

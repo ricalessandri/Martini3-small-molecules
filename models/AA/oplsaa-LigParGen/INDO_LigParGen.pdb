@@ -1,0 +1,36 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 INDO    1       1.000   1.000   0.000
+ATOM      2  C01 INDO    1      -0.395   1.000   0.000
+ATOM      3  C02 INDO    1      -0.812   1.000   1.360
+ATOM      4  C03 INDO    1       0.318   1.000   2.145
+ATOM      5  N04 INDO    1       1.404   1.000   1.316
+ATOM      6  C05 INDO    1      -1.072   1.002  -1.235
+ATOM      7  C06 INDO    1      -0.328   1.003  -2.421
+ATOM      8  C07 INDO    1       1.065   1.003  -2.386
+ATOM      9  C08 INDO    1       1.755   1.001  -1.179
+ATOM     10  H09 INDO    1      -1.833   1.001   1.719
+ATOM     11  H0A INDO    1       0.442   0.999   3.219
+ATOM     12  H0B INDO    1       2.368   1.001   1.618
+ATOM     13  H0C INDO    1      -2.157   1.003  -1.267
+ATOM     14  H0D INDO    1      -0.846   1.005  -3.377
+ATOM     15  H0E INDO    1       1.624   1.003  -3.319
+ATOM     16  H0F INDO    1       2.840   1.003  -1.158
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    1    5 
+CONECT    2    6 
+CONECT    6    7 
+CONECT    7    8 
+CONECT    1    9 
+CONECT    3   10 
+CONECT    4   11 
+CONECT    5   12 
+CONECT    6   13 
+CONECT    7   14 
+CONECT    8   15 
+CONECT    9   16 
+CONECT    4    5 
+CONECT    8    9 
+END

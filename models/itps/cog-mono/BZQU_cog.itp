@@ -1,0 +1,36 @@
+
+;;;;;; para-BENZOQUINONE
+;
+; Note(s):
+;   For minimizations, you may use define=-DFLEXIBLE to use a stiff-bond version of the topology that is more amenable to minimization.
+;
+
+[moleculetype]
+; molname       nrexcl
+  BZQU            1
+
+[atoms]
+; id  type  resnr  residu atom  cgnr  charge
+   1   TN5a   1     BZQU   O1    1     0
+   2   TC5    1     BZQU   R2    2     0
+   3   TC5    1     BZQU   R3    3     0
+   4   TN5a   1     BZQU   O4    4     0 
+
+[bonds]
+#ifndef FLEXIBLE
+[constraints]
+#endif
+; i j   funct   length
+  1 2       1     0.268 1000000 ; cog 
+  1 3       1     0.268 1000000 ; cog 
+  2 3       1     0.344 1000000 ; cog 
+  2 4       1     0.268 1000000 ; cog 
+  3 4       1     0.268 1000000 ; cog 
+
+[dihedrals]
+; i j k l  funct  ref.angle   force_k
+  1 2 3 4    2      180.00      100
+
+[exclusions]
+  1 4
+

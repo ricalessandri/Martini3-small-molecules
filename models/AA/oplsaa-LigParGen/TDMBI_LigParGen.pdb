@@ -1,0 +1,127 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 TDMBI   1       1.000   1.000   0.000
+ATOM      2  C01 TDMBI   1      -0.516   1.000   0.000
+ATOM      3  O02 TDMBI   1      -0.971   1.000   1.353
+ATOM      4  C03 TDMBI   1      -2.397   0.998   1.424
+ATOM      5  C04 TDMBI   1      -2.837   0.997   2.885
+ATOM      6  O05 TDMBI   1      -4.265   0.993   2.946
+ATOM      7  C06 TDMBI   1      -4.728   0.993   4.295
+ATOM      8  C07 TDMBI   1      -6.254   0.991   4.313
+ATOM      9  O08 TDMBI   1      -6.704   0.993   5.667
+ATOM     10  C09 TDMBI   1      -8.130   0.993   5.754
+ATOM     11  C0A TDMBI   1      -8.527   0.997   7.227
+ATOM     12  O0B TDMBI   1      -9.949   0.998   7.335
+ATOM     13  C0C TDMBI   1     -10.465   0.945   8.603
+ATOM     14  C0D TDMBI   1      -9.725   0.941   9.786
+ATOM     15  C0E TDMBI   1     -10.377   0.882  11.025
+ATOM     16  C0F TDMBI   1     -11.777   0.827  11.096
+ATOM     17  C0G TDMBI   1     -12.503   0.832   9.901
+ATOM     18  C0H TDMBI   1     -11.858   0.891   8.669
+ATOM     19  C0I TDMBI   1     -12.479   0.762  12.439
+ATOM     20  N0J TDMBI   1     -13.410   1.887  12.614
+ATOM     21  C0K TDMBI   1     -12.931   3.221  12.881
+ATOM     22  C0M TDMBI   1     -14.416   1.323  13.417
+ATOM     23  C0N TDMBI   1     -15.406   1.961  14.142
+ATOM     24  C0O TDMBI   1     -16.337   1.177  14.829
+ATOM     25  C0P TDMBI   1     -16.263  -0.223  14.781
+ATOM     26  C0Q TDMBI   1     -15.259  -0.859  14.045
+ATOM     27  C0R TDMBI   1     -14.344  -0.082  13.363
+ATOM     28  N0S TDMBI   1     -13.275  -0.474  12.556
+ATOM     29  C0T TDMBI   1     -12.625  -1.755  12.675
+ATOM     30  H0U TDMBI   1       1.388   0.999  -1.022
+ATOM     31  H0V TDMBI   1       1.385   0.120   0.526
+ATOM     32  H0W TDMBI   1       1.385   1.881   0.524
+ATOM     33  H0X TDMBI   1      -0.887   0.106  -0.514
+ATOM     34  H0Y TDMBI   1      -0.887   1.894  -0.514
+ATOM     35  H0Z TDMBI   1      -2.796   0.112   0.916
+ATOM     36  H10 TDMBI   1      -2.798   1.885   0.917
+ATOM     37  H11 TDMBI   1      -2.441   1.885   3.392
+ATOM     38  H12 TDMBI   1      -2.437   0.110   3.392
+ATOM     39  H13 TDMBI   1      -4.353   1.880   4.820
+ATOM     40  H14 TDMBI   1      -4.350   0.108   4.822
+ATOM     41  H15 TDMBI   1      -6.631   0.104   3.792
+ATOM     42  H16 TDMBI   1      -6.633   1.877   3.790
+ATOM     43  H17 TDMBI   1      -8.537   0.104   5.259
+ATOM     44  H18 TDMBI   1      -8.538   1.878   5.253
+ATOM     45  H19 TDMBI   1      -8.105   1.890   7.705
+ATOM     46  H1A TDMBI   1      -8.104   0.105   7.707
+ATOM     47  H1B TDMBI   1      -8.640   0.981   9.784
+ATOM     48  H1C TDMBI   1      -9.777   0.879  11.932
+ATOM     49  H1D TDMBI   1     -13.594   0.789   9.940
+ATOM     50  H1E TDMBI   1     -12.444   0.892   7.753
+ATOM     51  H1F TDMBI   1     -11.730   0.788  13.249
+ATOM     52  H1G TDMBI   1     -12.015   3.429  12.318
+ATOM     53  H1H TDMBI   1     -12.719   3.381  13.943
+ATOM     54  H1I TDMBI   1     -13.676   3.955  12.554
+ATOM     55  H1J TDMBI   1     -15.467   3.042  14.181
+ATOM     56  H1K TDMBI   1     -17.125   1.656  15.405
+ATOM     57  H1M TDMBI   1     -16.996  -0.819  15.320
+ATOM     58  H1N TDMBI   1     -15.212  -1.940  14.019
+ATOM     59  H1O TDMBI   1     -13.307  -2.544  13.006
+ATOM     60  H1P TDMBI   1     -11.777  -1.717  13.366
+ATOM     61  H1Q TDMBI   1     -12.251  -2.063  11.692
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    4    5 
+CONECT    5    6 
+CONECT    6    7 
+CONECT    7    8 
+CONECT    8    9 
+CONECT    9   10 
+CONECT   10   11 
+CONECT   11   12 
+CONECT   12   13 
+CONECT   13   14 
+CONECT   14   15 
+CONECT   15   16 
+CONECT   16   17 
+CONECT   13   18 
+CONECT   16   19 
+CONECT   19   20 
+CONECT   20   21 
+CONECT   20   22 
+CONECT   22   23 
+CONECT   23   24 
+CONECT   24   25 
+CONECT   25   26 
+CONECT   22   27 
+CONECT   19   28 
+CONECT   28   29 
+CONECT    1   30 
+CONECT    1   31 
+CONECT    1   32 
+CONECT    2   33 
+CONECT    2   34 
+CONECT    4   35 
+CONECT    4   36 
+CONECT    5   37 
+CONECT    5   38 
+CONECT    7   39 
+CONECT    7   40 
+CONECT    8   41 
+CONECT    8   42 
+CONECT   10   43 
+CONECT   10   44 
+CONECT   11   45 
+CONECT   11   46 
+CONECT   14   47 
+CONECT   15   48 
+CONECT   17   49 
+CONECT   18   50 
+CONECT   19   51 
+CONECT   21   52 
+CONECT   21   53 
+CONECT   21   54 
+CONECT   23   55 
+CONECT   24   56 
+CONECT   25   57 
+CONECT   26   58 
+CONECT   29   59 
+CONECT   29   60 
+CONECT   29   61 
+CONECT   17   18 
+CONECT   26   27 
+CONECT   27   28 
+END

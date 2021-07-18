@@ -1,0 +1,19 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  N00 THAZ    1       1.000   1.000   0.000
+ATOM      2  C01 THAZ    1      -0.381   1.000   0.000
+ATOM      3  C02 THAZ    1      -0.977   1.000   1.243
+ATOM      4  S03 THAZ    1       0.230   1.000   2.462
+ATOM      5  C04 THAZ    1       1.430   1.000   1.243
+ATOM      6  H05 THAZ    1      -0.909   1.001  -0.946
+ATOM      7  H06 THAZ    1      -2.030   0.999   1.485
+ATOM      8  H07 THAZ    1       2.484   0.999   1.488
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    1    5 
+CONECT    2    6 
+CONECT    3    7 
+CONECT    5    8 
+CONECT    4    5 
+END

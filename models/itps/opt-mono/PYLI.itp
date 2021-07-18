@@ -1,0 +1,16 @@
+
+;;;;;; PYRROLIDINE
+
+[moleculetype]
+; molname       nrexcl
+  PYLI            1
+
+[atoms]
+; id  type  resnr  residu  atom  cgnr  charge
+   1  TN6d    1     PYLI    N1     1     0  
+   2  SC3     1     PYLI    R2     2     0  
+
+[bonds]
+; i j   funct  length   force.c.
+  1 2   1       0.290     5000    
+

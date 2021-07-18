@@ -1,0 +1,19 @@
+
+;;;;;; THIOPHENE
+
+[moleculetype]
+; molname       nrexcl
+  THIO            1
+
+[atoms]
+; id    type    resnr   residu  atom    cgnr    charge
+  1   TC6   1     THIO  S1    1     0 
+  2   TC5   1     THIO  R2    2     0 
+  3   TC5   1     THIO  R3    3     0 
+
+[constraints]
+; i j   funct   length
+  1 2       1     0.243 ; cog
+  2 3       1     0.277 ; cog
+  1 3       1     0.243 ; cog
+

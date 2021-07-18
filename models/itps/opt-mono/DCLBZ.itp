@@ -1,0 +1,19 @@
+
+;;;;;; 1,2-DICHLOROBENZENE or 1,3-DICHLOROBENZENE 
+
+[moleculetype]
+; molname       nrexcl
+  DCLBZ           1
+
+[atoms]
+; id    type    resnr   residu  atom    cgnr    charge
+  1   SX3   1     DCLBZ       R1    1     0 
+  2   SX3   1     DCLBZ       R2    2     0 
+  3   TC5   1     DCLBZ       R3    3     0 
+
+[constraints]
+; i j   funct   length
+  1 2       1     0.324
+  1 3       1     0.316
+  2 3       1     0.316
+

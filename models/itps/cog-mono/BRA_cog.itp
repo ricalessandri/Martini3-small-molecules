@@ -1,0 +1,38 @@
+
+;;;;;; 4-BROMOANISOLE
+;
+; Note(s):
+;   For minimizations, you may use define=-DFLEXIBLE to use a stiff-bond version of the topology that is more amenable to minimization.
+;
+
+[ moleculetype ]
+; molname            nrexcl
+  BRA             1
+
+[ atoms ]
+; nr    type    resnr   residue atom    cgnr    charge  mass
+  1     SN2a    1       BRA     O1      1       0       54
+  2     TC5     1       BRA     R2      2       0       36
+  3     TC5     1       BRA     R3      3       0       36
+  4     TX2     1       BRA     X4      4       0       36
+
+[bonds]
+#ifndef FLEXIBLE
+[constraints]
+#endif
+; i     j       funct   length  
+  1     2       1       0.315 1000000 ; cog  
+  1     3       1       0.315 1000000 ; cog  
+  2  	3	1	0.265 1000000 ; cog
+  2	4	1	0.330 1000000 ; cog
+  3	4	1	0.330 1000000 ; cog
+
+[ dihedrals ]
+; Keeping it flat using improper
+; i     j       k       l       func    angle   strength
+  1     2       3       4    	2       180     250
+
+[ exclusions ]
+; i     j       k       l
+  1     4 
+

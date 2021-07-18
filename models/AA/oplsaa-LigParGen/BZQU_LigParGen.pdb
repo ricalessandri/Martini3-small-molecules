@@ -1,0 +1,27 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 BZQU    1       1.000   1.000   0.000
+ATOM      2  C01 BZQU    1      -0.337   1.000   0.000
+ATOM      3  C02 BZQU    1      -1.102   1.000   1.263
+ATOM      4  O03 BZQU    1      -2.325   0.999   1.264
+ATOM      5  C04 BZQU    1      -0.331   1.003   2.522
+ATOM      6  C05 BZQU    1       1.005   1.006   2.518
+ATOM      7  C06 BZQU    1       1.765   1.000   1.262
+ATOM      8  O07 BZQU    1       2.988   0.996   1.264
+ATOM      9  H08 BZQU    1       1.577   0.999  -0.917
+ATOM     10  H09 BZQU    1      -0.913   0.999  -0.917
+ATOM     11  H0A BZQU    1      -0.907   1.002   3.440
+ATOM     12  H0B BZQU    1       1.585   1.012   3.433
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    3    5 
+CONECT    5    6 
+CONECT    1    7 
+CONECT    7    8 
+CONECT    1    9 
+CONECT    2   10 
+CONECT    5   11 
+CONECT    6   12 
+CONECT    6    7 
+END

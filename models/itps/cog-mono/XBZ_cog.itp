@@ -1,0 +1,31 @@
+
+;;;;;; METHOXYBENZENE aka ANISOLE
+
+[moleculetype]
+; molname       nrexcl
+  XBZ             1
+
+[atoms]
+; id    type    resnr   residu  atom    cgnr    charge
+  1   TN2a  1     XBZ   O1    1     0 
+  2   TC5   1     XBZ   R2    2     0 
+  3   TC5   1     XBZ   R3    3     0 
+  4   TC5   1     XBZ   R4    4     0 
+
+[bonds]
+; i  j  funct length
+  1 2     1    0.320   25000 ; cog
+  1 3     1    0.320   25000 ; cog
+[constraints]
+; i j   funct   length
+  2 3     1    0.263 ; cog 
+  2 4     1    0.263 ; cog 
+  3 4     1    0.263 ; cog 
+
+[dihedrals]
+; i j k l  funct  ref.angle   force_k
+  1 2 3 4    2      180.00      75
+
+[exclusions]
+  1 4
+

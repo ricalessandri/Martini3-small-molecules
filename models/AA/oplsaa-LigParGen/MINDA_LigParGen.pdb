@@ -1,0 +1,40 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 MINDA   1       1.000   1.000   0.000
+ATOM      2  N01 MINDA   1      -0.443   1.000   0.000
+ATOM      3  C02 MINDA   1      -1.282   1.000   1.089
+ATOM      4  C03 MINDA   1      -1.048   1.000   2.472
+ATOM      5  C04 MINDA   1      -2.165   0.998   3.315
+ATOM      6  C05 MINDA   1      -3.459   0.997   2.798
+ATOM      7  C06 MINDA   1      -3.676   0.997   1.416
+ATOM      8  C07 MINDA   1      -2.568   1.002   0.552
+ATOM      9  C08 MINDA   1      -2.372   1.007  -0.845
+ATOM     10  N09 MINDA   1      -1.083   0.998  -1.188
+ATOM     11  H0A MINDA   1       1.378   1.000   1.024
+ATOM     12  H0B MINDA   1       1.342   1.898  -0.520
+ATOM     13  H0C MINDA   1       1.342   0.102  -0.520
+ATOM     14  H0D MINDA   1      -0.045   1.000   2.885
+ATOM     15  H0E MINDA   1      -2.017   1.000   4.394
+ATOM     16  H0F MINDA   1      -4.310   0.997   3.476
+ATOM     17  H0G MINDA   1      -4.687   0.992   1.020
+ATOM     18  H0H MINDA   1      -3.122   1.017  -1.626
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    4    5 
+CONECT    5    6 
+CONECT    6    7 
+CONECT    3    8 
+CONECT    8    9 
+CONECT    2   10 
+CONECT    1   11 
+CONECT    1   12 
+CONECT    1   13 
+CONECT    4   14 
+CONECT    5   15 
+CONECT    6   16 
+CONECT    7   17 
+CONECT    9   18 
+CONECT    7    8 
+CONECT    9   10 
+END

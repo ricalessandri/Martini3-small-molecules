@@ -1,0 +1,41 @@
+
+;;;;;; PROPYL-BENZENE
+;
+; Reference(s):
+;   PCT Souza, S Thallmair, P Conflitti, JC Ramirez Palacios, R Alessandri, S Raniolo, V Limongelli, SJ Marrink, Protein-Ligand
+;   Binding with the Coarse-Grained Martini Model, Nat. Commun. 2020, 11, 3714, [DOI: 10.1038/s41467-020-17437-5].
+;
+; Note(s):
+;   Bead types updated to the Martini 3 parameters from the Martini 3 open-beta model [DOI: 10.1038/s41467-020-17437-5].
+;
+
+[moleculetype]
+; molname       nrexcl
+  PBEN          1
+
+[atoms]
+; id    type    resnr   residu  atom    cgnr    charge
+  1     TC5     1       PBEN    R1      1       0 
+  2     TC5     1       PBEN    R2      2       0 
+  3     TC5     1       PBEN    R3      3       0
+  4     SC2     1       PBEN    R4      4       0
+
+[bonds]
+; i j   funct   length  force.c.
+  2 4   1       0.34    5000
+  3 4   1       0.34    5000
+
+[constraints]
+; i j   funct   length
+  1 2   1       0.291
+  2 3   1       0.291
+  1 3   1       0.291
+
+[ dihedrals ]
+; improper
+; i j k l  funct  ref.angle force_k
+  1 2 3 4    2      180       20  
+
+[ exclusions ]
+ 1 4
+

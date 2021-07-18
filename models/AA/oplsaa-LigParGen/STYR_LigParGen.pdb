@@ -1,0 +1,35 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 STYR    1       1.000   1.000   0.000
+ATOM      2  C01 STYR    1      -0.398   1.000   0.000
+ATOM      3  C02 STYR    1      -1.096   1.000   1.205
+ATOM      4  C03 STYR    1      -0.397   1.000   2.409
+ATOM      5  C04 STYR    1       1.001   1.000   2.406
+ATOM      6  C05 STYR    1       1.714   1.000   1.206
+ATOM      7  C06 STYR    1       3.182   1.057   1.257
+ATOM      8  C07 STYR    1       4.003   0.524   0.343
+ATOM      9  H08 STYR    1       1.520   1.001  -0.954
+ATOM     10  H09 STYR    1      -0.938   1.001  -0.943
+ATOM     11  H0A STYR    1      -2.183   1.001   1.204
+ATOM     12  H0B STYR    1      -0.937   1.001   3.352
+ATOM     13  H0C STYR    1       1.527   0.999   3.358
+ATOM     14  H0D STYR    1       3.608   1.576   2.112
+ATOM     15  H0E STYR    1       3.640  -0.007  -0.531
+ATOM     16  H0F STYR    1       5.079   0.611   0.458
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    4    5 
+CONECT    1    6 
+CONECT    6    7 
+CONECT    7    8 
+CONECT    1    9 
+CONECT    2   10 
+CONECT    3   11 
+CONECT    4   12 
+CONECT    5   13 
+CONECT    7   14 
+CONECT    8   15 
+CONECT    8   16 
+CONECT    5    6 
+END

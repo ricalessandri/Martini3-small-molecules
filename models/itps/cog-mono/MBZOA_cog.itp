@@ -1,0 +1,32 @@
+
+;;;;;; METHYL-BENZOATE
+
+[moleculetype]
+; molname       nrexcl
+ MBZOA            1
+
+[atoms]
+; id   type    resnr   residu  atom    cgnr    charge
+   1    N4a      1      MBZOA   O1      1        0
+   2   TC5       1      MBZOA   R2      2        0
+   3   TC5       1      MBZOA   R3      3        0
+   4   TC5       1      MBZOA   R4      4        0
+
+[bonds]
+; i j   funct   length  force.c.
+  1 2     1      0.389   5000 ; cog
+  1 3     1      0.389   5000 ; cog
+
+[constraints]
+; i j   funct   length
+  2 3     1      0.264 ; cog
+  2 4     1      0.264 ; cog
+  3 4     1      0.264 ; cog
+
+[dihedrals]
+; i j k l  funct  ref.angle   force_k
+  1 2 3 4    2      180.00       50
+
+[exclusions]
+  1 4
+

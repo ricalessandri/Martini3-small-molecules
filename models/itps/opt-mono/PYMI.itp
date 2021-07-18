@@ -1,0 +1,19 @@
+
+;;;;;; PYRIMIDINE
+
+[moleculetype]
+; molname       nrexcl
+  PYMI            1
+
+[atoms]
+; id    type    resnr   residu  atom    cgnr    charge
+  1   TN5a  1     PYMI  N1    1     0 
+  2   TN5a  1     PYMI  N2    2     0 
+  3   TC5   1     PYMI  R3    3     0 
+
+[constraints]
+; i j   funct   length
+  1 2       1     0.263 ; cog
+  2 3       1     0.263 ; cog
+  1 3       1     0.290 ; cog
+

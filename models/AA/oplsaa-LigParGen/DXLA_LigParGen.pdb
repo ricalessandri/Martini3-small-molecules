@@ -1,0 +1,25 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  O00 DXLA    1       1.000   1.000   0.000
+ATOM      2  C01 DXLA    1      -0.426   1.000   0.000
+ATOM      3  C02 DXLA    1      -0.768   1.000   1.465
+ATOM      4  O03 DXLA    1       0.212   0.132   2.031
+ATOM      5  C04 DXLA    1       1.351   0.281   1.186
+ATOM      6  H05 DXLA    1      -0.766   0.083  -0.493
+ATOM      7  H06 DXLA    1      -0.815   1.869  -0.538
+ATOM      8  H07 DXLA    1      -1.777   0.636   1.675
+ATOM      9  H08 DXLA    1      -0.638   1.993   1.908
+ATOM     10  H09 DXLA    1       1.725  -0.711   0.914
+ATOM     11  H0A DXLA    1       2.133   0.829   1.720
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    1    5 
+CONECT    2    6 
+CONECT    2    7 
+CONECT    3    8 
+CONECT    3    9 
+CONECT    5   10 
+CONECT    5   11 
+CONECT    4    5 
+END

@@ -1,0 +1,33 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 BZTF    1       1.000   1.000   0.000
+ATOM      2  C01 BZTF    1      -0.394   1.000   0.000
+ATOM      3  C02 BZTF    1      -1.092   1.000   1.209
+ATOM      4  C03 BZTF    1      -0.400   1.000   2.429
+ATOM      5  C04 BZTF    1       1.005   1.000   2.411
+ATOM      6  C05 BZTF    1       1.697   1.000   1.207
+ATOM      7  C06 BZTF    1      -1.137   1.002   3.745
+ATOM      8  F07 BZTF    1      -2.494   1.003   3.611
+ATOM      9  F08 BZTF    1      -0.841  -0.086   4.510
+ATOM     10  F09 BZTF    1      -0.838   2.090   4.508
+ATOM     11  H0A BZTF    1       1.543   1.001  -0.942
+ATOM     12  H0B BZTF    1      -0.936   1.001  -0.943
+ATOM     13  H0C BZTF    1      -2.181   1.001   1.192
+ATOM     14  H0D BZTF    1       1.563   1.001   3.347
+ATOM     15  H0E BZTF    1       2.785   1.001   1.204
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    4    5 
+CONECT    1    6 
+CONECT    4    7 
+CONECT    7    8 
+CONECT    7    9 
+CONECT    7   10 
+CONECT    1   11 
+CONECT    2   12 
+CONECT    3   13 
+CONECT    5   14 
+CONECT    6   15 
+CONECT    5    6 
+END

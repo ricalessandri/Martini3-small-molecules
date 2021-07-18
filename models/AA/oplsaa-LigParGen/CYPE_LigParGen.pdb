@@ -1,0 +1,33 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 CYPE    1       1.000   1.000   0.000
+ATOM      2  C01 CYPE    1      -0.519   1.000   0.000
+ATOM      3  C02 CYPE    1      -0.855   1.000   1.482
+ATOM      4  C03 CYPE    1       0.186   0.076   2.103
+ATOM      5  C04 CYPE    1       1.372   0.066   1.146
+ATOM      6  H05 CYPE    1       1.374   2.010   0.206
+ATOM      7  H06 CYPE    1       1.417   0.671  -0.956
+ATOM      8  H07 CYPE    1      -0.900   0.089  -0.477
+ATOM      9  H08 CYPE    1      -0.935   1.866  -0.522
+ATOM     10  H09 CYPE    1      -1.878   0.665   1.677
+ATOM     11  H0A CYPE    1      -0.745   2.012   1.890
+ATOM     12  H0B CYPE    1      -0.216  -0.939   2.203
+ATOM     13  H0C CYPE    1       0.473   0.417   3.102
+ATOM     14  H0D CYPE    1       1.535  -0.950   0.769
+ATOM     15  H0E CYPE    1       2.296   0.388   1.638
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    1    5 
+CONECT    1    6 
+CONECT    1    7 
+CONECT    2    8 
+CONECT    2    9 
+CONECT    3   10 
+CONECT    3   11 
+CONECT    4   12 
+CONECT    4   13 
+CONECT    5   14 
+CONECT    5   15 
+CONECT    4    5 
+END

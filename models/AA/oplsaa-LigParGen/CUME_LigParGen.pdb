@@ -1,0 +1,45 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 CUME    1       1.000   1.000   0.000
+ATOM      2  C01 CUME    1      -0.530   1.000   0.000
+ATOM      3  C02 CUME    1      -1.065   1.000   1.435
+ATOM      4  C03 CUME    1      -1.044   2.145  -0.857
+ATOM      5  C04 CUME    1      -1.293   1.919  -2.222
+ATOM      6  C05 CUME    1      -1.713   2.956  -3.054
+ATOM      7  C06 CUME    1      -1.892   4.236  -2.537
+ATOM      8  C07 CUME    1      -1.649   4.477  -1.187
+ATOM      9  C08 CUME    1      -1.210   3.444  -0.356
+ATOM     10  H09 CUME    1       1.389   0.155   0.576
+ATOM     11  H0A CUME    1       1.400   1.922   0.437
+ATOM     12  H0B CUME    1       1.393   0.917  -1.020
+ATOM     13  H0C CUME    1      -0.869   0.058  -0.453
+ATOM     14  H0D CUME    1      -0.697   1.854   2.014
+ATOM     15  H0E CUME    1      -0.745   0.092   1.960
+ATOM     16  H0F CUME    1      -2.160   1.027   1.447
+ATOM     17  H0G CUME    1      -1.158   0.925  -2.644
+ATOM     18  H0H CUME    1      -1.900   2.763  -4.108
+ATOM     19  H0I CUME    1      -2.218   5.045  -3.185
+ATOM     20  H0J CUME    1      -1.801   5.472  -0.778
+ATOM     21  H0K CUME    1      -0.998   3.670   0.686
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    2    4 
+CONECT    4    5 
+CONECT    5    6 
+CONECT    6    7 
+CONECT    7    8 
+CONECT    4    9 
+CONECT    1   10 
+CONECT    1   11 
+CONECT    1   12 
+CONECT    2   13 
+CONECT    3   14 
+CONECT    3   15 
+CONECT    3   16 
+CONECT    5   17 
+CONECT    6   18 
+CONECT    7   19 
+CONECT    8   20 
+CONECT    9   21 
+CONECT    8    9 
+END

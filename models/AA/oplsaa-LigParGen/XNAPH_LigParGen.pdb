@@ -1,0 +1,48 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 XNAPH   1       1.000   1.000   0.000
+ATOM      2  O01 XNAPH   1      -0.424   1.000   0.000
+ATOM      3  C02 XNAPH   1      -1.021   1.000   1.241
+ATOM      4  C03 XNAPH   1      -0.428   0.416   2.366
+ATOM      5  C04 XNAPH   1      -1.079   0.445   3.597
+ATOM      6  C05 XNAPH   1      -2.324   1.056   3.712
+ATOM      7  C06 XNAPH   1      -2.938   1.648   2.599
+ATOM      8  C07 XNAPH   1      -4.195   2.261   2.725
+ATOM      9  C08 XNAPH   1      -4.817   2.852   1.625
+ATOM     10  C09 XNAPH   1      -4.187   2.836   0.386
+ATOM     11  C0A XNAPH   1      -2.936   2.228   0.251
+ATOM     12  C0B XNAPH   1      -2.314   1.577   1.332
+ATOM     13  H0C XNAPH   1       1.334   1.187  -1.025
+ATOM     14  H0D XNAPH   1       1.396   0.025   0.299
+ATOM     15  H0E XNAPH   1       1.397   1.801   0.634
+ATOM     16  H0F XNAPH   1       0.540  -0.070   2.311
+ATOM     17  H0G XNAPH   1      -0.614  -0.012   4.467
+ATOM     18  H0H XNAPH   1      -2.815   1.066   4.683
+ATOM     19  H0I XNAPH   1      -4.701   2.284   3.688
+ATOM     20  H0J XNAPH   1      -5.790   3.321   1.739
+ATOM     21  H0K XNAPH   1      -4.665   3.295  -0.473
+ATOM     22  H0M XNAPH   1      -2.442   2.266  -0.719
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    4    5 
+CONECT    5    6 
+CONECT    6    7 
+CONECT    7    8 
+CONECT    8    9 
+CONECT    9   10 
+CONECT   10   11 
+CONECT    3   12 
+CONECT    1   13 
+CONECT    1   14 
+CONECT    1   15 
+CONECT    4   16 
+CONECT    5   17 
+CONECT    6   18 
+CONECT    8   19 
+CONECT    9   20 
+CONECT   10   21 
+CONECT   11   22 
+CONECT    7   12 
+CONECT   11   12 
+END

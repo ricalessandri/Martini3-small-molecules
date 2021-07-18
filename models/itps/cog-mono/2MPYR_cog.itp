@@ -1,0 +1,19 @@
+
+;;;;;; 2-METHYL-PYRIDINE
+
+[moleculetype]
+; molname       nrexcl
+  2MPYR           1
+
+[atoms]
+; id    type    resnr   residu  atom    cgnr    charge
+  1   SC4   1   2MPYR   R1    1     0
+  2   TN6a  1   2MPYR   N2    2     0
+  3   TC5   1   2MPYR   R3    3     0 
+
+[constraints]
+; i j   funct   length
+  1 2       1     0.331 ; cog
+  2 3       1     0.275 ; cog
+  1 3       1     0.226 ; cog
+

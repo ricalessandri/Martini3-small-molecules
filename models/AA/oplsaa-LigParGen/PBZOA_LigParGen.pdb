@@ -1,0 +1,51 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 PBZOA   1       1.000   1.000   0.000
+ATOM      2  C01 PBZOA   1      -0.522   1.000   0.000
+ATOM      3  C02 PBZOA   1      -1.049   1.000   1.429
+ATOM      4  O03 PBZOA   1      -2.479   1.086   1.469
+ATOM      5  C04 PBZOA   1      -3.139  -0.064   1.761
+ATOM      6  O05 PBZOA   1      -2.682  -1.193   1.709
+ATOM      7  C06 PBZOA   1      -4.518   0.258   2.227
+ATOM      8  C07 PBZOA   1      -4.869   1.547   2.658
+ATOM      9  C08 PBZOA   1      -6.148   1.795   3.160
+ATOM     10  C09 PBZOA   1      -7.081   0.762   3.235
+ATOM     11  C0A PBZOA   1      -6.736  -0.520   2.809
+ATOM     12  C0B PBZOA   1      -5.460  -0.775   2.307
+ATOM     13  H0C PBZOA   1       1.387   1.001  -1.023
+ATOM     14  H0D PBZOA   1       1.389   0.113   0.512
+ATOM     15  H0E PBZOA   1       1.389   1.887   0.511
+ATOM     16  H0F PBZOA   1      -0.897   0.124  -0.542
+ATOM     17  H0G PBZOA   1      -0.894   1.880  -0.538
+ATOM     18  H0H PBZOA   1      -0.680   1.889   1.952
+ATOM     19  H0I PBZOA   1      -0.681   0.130   1.984
+ATOM     20  H0J PBZOA   1      -4.155   2.364   2.608
+ATOM     21  H0K PBZOA   1      -6.413   2.796   3.493
+ATOM     22  H0M PBZOA   1      -8.075   0.959   3.628
+ATOM     23  H0N PBZOA   1      -7.464  -1.325   2.869
+ATOM     24  H0O PBZOA   1      -5.200  -1.780   1.978
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    4    5 
+CONECT    5    6 
+CONECT    5    7 
+CONECT    7    8 
+CONECT    8    9 
+CONECT    9   10 
+CONECT   10   11 
+CONECT    7   12 
+CONECT    1   13 
+CONECT    1   14 
+CONECT    1   15 
+CONECT    2   16 
+CONECT    2   17 
+CONECT    3   18 
+CONECT    3   19 
+CONECT    8   20 
+CONECT    9   21 
+CONECT   10   22 
+CONECT   11   23 
+CONECT   12   24 
+CONECT   11   12 
+END

@@ -6,7 +6,7 @@ This GitHub repository contains a collection of Martini 3 models for small molec
 If you use or wish to cite the Martini 3 small-molecule database, please refer to the following publication:
 
 - R. Alessandri, J. Barnoud, A.S. Gertsen, I. Patmanidis, A.H. de Vries, P.C.T. Souza, S.J. Marrink.
-  "Martini 3 Coarse-Grained Force Field: Small Molecules", *preprint* **2021**, [doi: XXXX].
+  "Martini 3 Coarse-Grained Force Field: Small Molecules", *Chemrxiv* **2021**, [doi: 10.33774/chemrxiv-2021-1qmq9](https://doi.org/10.33774/chemrxiv-2021-1qmq9).
  
 Additional references should be cited for particular models. Please check the header of the model for details.
  

@@ -2,10 +2,10 @@
 ;;;;;                                                                                                     
 ;;;;; File updated on 2021-07-16                                              
 ;;;;; Currently, there are  90 topologies.                                                                
-;;;;; Version: 3.0.0_v1 ('FULL')                                                                          
+;;;;; Version: 3.0.0_v1                                                                                   
 ;;;;;                                                                                                     
 ;;;;; Please cite:                                                                                        
-;;;;;   R Alessandri, et al., Martini 3 Coarse-Grained Force Field: Small Molecules, in preparation, 2021.
+;;;;;   R Alessandri, et al., Chemrxiv, 2021, DOI: 10.33774/chemrxiv-2021-1qmq9                           
 ;;;;;                                                                                                     
 ;;;;; Note(s):                                                                                            
 ;;;;;   Additional references and/or notes relevant to a specific model may be provided in the header of  

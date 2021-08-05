@@ -1,7 +1,7 @@
 
 # Martini 3 small-molecule database - Models
 
-The file [`martini_v3.0_small_molecules.itp`](https://github.com/ricalessandri/Martini3-small-molecules/blob/main/models/martini_v3.0_small_molecules.itp) 
+The file [`martini_v3.0.0_small_molecules_v1.itp`](https://github.com/ricalessandri/Martini3-small-molecules/blob/main/models/martini_v3.0.0_small_molecules_v1.itp) 
 contains the up-to-date collection of Martini 3 small molecule models.
 
 One way to look for a particular molecule is to search that file for the molecule common name in *capital* letters, e.g., BENZENE, TOLUENE, etc.

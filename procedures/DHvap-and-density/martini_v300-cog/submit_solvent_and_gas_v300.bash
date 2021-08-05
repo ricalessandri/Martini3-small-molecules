@@ -1,7 +1,7 @@
 #!/bin/bash
 
-FOLDERitpsSM30="/coarse/riccardo/Repos/small-molecules-3.0/models"
-FOLDERsolute="/coarse/riccardo/Repos/small-molecules-3.0/models/gros"
+FOLDERitpsSM30="/coarse/riccardo/Repos/Martini3-small-molecules/models"
+FOLDERsolute="/coarse/riccardo/Repos/Martini3-small-molecules/models/gros"
 
 
 #-------------------------------------------------------------------------------------------------------------------------------------------------------#
@@ -29,8 +29,8 @@ while read mol; do
     cp -r template/* data/${mol}/.
     #
     cd data/${mol}
-    cp ${FOLDERitpsSM30}/martini_v3.0_small_molecules_cog.itp .
-    cp ${FOLDERitpsSM30}/martini_v3.0_small_molecules_MM.itp  .
+    cp ${FOLDERitpsSM30}/martini_v3.0.0_small_molecules_cog_v1.itp .
+    cp ${FOLDERitpsSM30}/martini_v3.0.0_small_molecules_MM_v1.itp  .
     # Run the GAS phase:
     cd GAS
     cp ${FOLDERsolute}/${mol}.gro .

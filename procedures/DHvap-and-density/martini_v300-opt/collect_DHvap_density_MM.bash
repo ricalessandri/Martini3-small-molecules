@@ -2,8 +2,8 @@
 
 
 # Generate up-to-date 'list of molecules'
-repoSM30="/coarse/riccardo/Repos/small-molecules-3.0"
-${repoSM30}/utils/GET_UP-TO-DATE_list_molecules.bash  ${repoSM30}/models/martini_v3.0_small_molecules.itp > list_molecules_results 
+repoSM30="/coarse/riccardo/Repos/Martini3-small-molecules"
+${repoSM30}/utils/GET_UP-TO-DATE_list_molecules.bash  ${repoSM30}/models/martini_v3.0.0_small_molecules_v1.itp > list_molecules_results 
 
 # For the printf, in order to switch to North American float separation style simply set LC_NUMERIC to its American value.
 export LC_NUMERIC="en_US.UTF-8"

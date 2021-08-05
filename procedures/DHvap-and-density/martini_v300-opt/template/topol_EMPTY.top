@@ -1,0 +1,7 @@
+#include "/coarse/riccardo/Repos/Martini/itps/martini_v300/martini_v3.0.0.itp"
+#include "martini_v3.0_small_molecules.itp"
+
+[ system ]
+Bulk solvent
+
+[ molecules ]

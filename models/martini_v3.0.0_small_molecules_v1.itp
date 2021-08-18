@@ -925,7 +925,7 @@
   1     TC5     1       EBEN    R1      1       0 
   2     TC5     1       EBEN    R2      2       0 
   3     TC5     1       EBEN    R3      3       0
-  4     TC4     1       EBEN    R4      4       0
+  4     TC3     1       EBEN    R4      4       0
 
 [bonds]
 #ifndef FLEXIBLE

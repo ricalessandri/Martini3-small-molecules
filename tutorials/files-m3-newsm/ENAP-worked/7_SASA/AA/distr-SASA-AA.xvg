@@ -1,0 +1,32 @@
+# This file was created Thu Jun 11 17:29:37 2020
+# Created by:
+#                     :-) GROMACS - gmx analyze, 2019.5 (-:
+# 
+# Executable:   /usr/local/gromacs-2019.5/bin/gmx
+# Data prefix:  /usr/local/gromacs-2019.5
+# Working dir:  /coarse/riccardo/rings/AAvsCG-DISTR/ENAP-in-water-30b32/7_SASA/AA
+# Command line:
+#   gmx analyze -f SASA-AA.xvg -bw 0.01 -dist distr-SASA-AA.xvg
+# gmx analyze is part of G R O M A C S:
+#
+# S  C  A  M  O  R  G
+#
+@    title "Distribution"
+@    xaxis  label ""
+@    yaxis  label ""
+@TYPE xy
+ 4.28  0
+ 4.29  0.079968
+ 4.3  0.839664
+ 4.31  2.51899
+ 4.32  10.5158
+ 4.33  17.6329
+ 4.34  26.3894
+ 4.35  20.1919
+ 4.36  14.5542
+ 4.37  5.07797
+ 4.38  1.7593
+ 4.39  0.39984
+ 4.4  0.039984
+ 4.41  0
+ 4.42  0

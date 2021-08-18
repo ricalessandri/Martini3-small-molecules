@@ -1,0 +1,52 @@
+REMARK LIGPARGEN GENERATED PDB FILE
+ATOM      1  C00 ENAP    1       1.000   1.000   0.000
+ATOM      2  C01 ENAP    1      -0.521   1.000   0.000
+ATOM      3  C02 ENAP    1      -1.101   1.000   1.399
+ATOM      4  C03 ENAP    1      -1.365  -0.249   1.991
+ATOM      5  C04 ENAP    1      -1.948  -0.333   3.250
+ATOM      6  C05 ENAP    1      -2.277   0.831   3.938
+ATOM      7  C06 ENAP    1      -2.027   2.093   3.377
+ATOM      8  C07 ENAP    1      -2.367   3.254   4.092
+ATOM      9  C08 ENAP    1      -2.129   4.519   3.559
+ATOM     10  C09 ENAP    1      -1.548   4.636   2.304
+ATOM     11  C0A ENAP    1      -1.207   3.487   1.584
+ATOM     12  C0B ENAP    1      -1.384   2.197   2.118
+ATOM     13  H0C ENAP    1       1.375   0.999  -1.029
+ATOM     14  H0D ENAP    1       1.395   0.111   0.504
+ATOM     15  H0E ENAP    1       1.402   1.884   0.506
+ATOM     16  H0F ENAP    1      -0.879   0.114  -0.540
+ATOM     17  H0G ENAP    1      -0.901   1.851  -0.575
+ATOM     18  H0H ENAP    1      -1.114  -1.167   1.464
+ATOM     19  H0I ENAP    1      -2.147  -1.304   3.694
+ATOM     20  H0J ENAP    1      -2.731   0.744   4.922
+ATOM     21  H0K ENAP    1      -2.822   3.178   5.077
+ATOM     22  H0M ENAP    1      -2.397   5.406   4.125
+ATOM     23  H0N ENAP    1      -1.361   5.619   1.880
+ATOM     24  H0O ENAP    1      -0.794   3.625   0.589
+TER 
+CONECT    1    2 
+CONECT    2    3 
+CONECT    3    4 
+CONECT    4    5 
+CONECT    5    6 
+CONECT    6    7 
+CONECT    7    8 
+CONECT    8    9 
+CONECT    9   10 
+CONECT   10   11 
+CONECT    3   12 
+CONECT    1   13 
+CONECT    1   14 
+CONECT    1   15 
+CONECT    2   16 
+CONECT    2   17 
+CONECT    4   18 
+CONECT    5   19 
+CONECT    6   20 
+CONECT    8   21 
+CONECT    9   22 
+CONECT   10   23 
+CONECT   11   24 
+CONECT    7   12 
+CONECT   11   12 
+END

@@ -1,0 +1,17 @@
+; Include forcefield parameters
+#include "oplsaa.ff/forcefield.itp"
+
+; Include chain topologies
+#include "ENAP_LigParGen_COG.itp"
+
+; Include water topology
+#include "oplsaa.ff/tip3p.itp"
+
+[ system ]
+; Name
+One molecules in water
+
+[ molecules ]
+; Compound        #mols
+ENAP                1
+SOL               1694

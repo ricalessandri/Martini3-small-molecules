@@ -17,7 +17,7 @@
 
 integrator              = md                ; 
 dt                      = 0.002             ; ps 
-nsteps                  = 25000000          ; total time:  50 ns
+nsteps                  =  5000000          ; total time:  10 ns
 tinit                   = 0                 ; initial time, ps
 nstcomm                 = 1                 ; freq. for cm-motion removal
 ld_seed                 = -1

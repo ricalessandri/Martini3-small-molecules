@@ -1,4 +1,4 @@
-#include "martini_v3.0.b.3.2.itp"
+#include "martini_v3.0.0.itp"
 #include "ENAP_initial.itp"
 
 [ system ]

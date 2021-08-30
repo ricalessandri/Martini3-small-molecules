@@ -14,6 +14,7 @@ fi
 # Atomistic
 mkdir -p AA
 cd       AA
+cp ../vdwradii_AA.dat  vdwradii.dat
 # Compute SASA
 echo ${molecule} | gmx sasa -f ../../3_mapped/AA-traj.whole.xtc -s ../../3_mapped/AA-COG.tpr -ndots 4800 -probe 0.191  -o SASA-AA.xvg
 gmx analyze -f SASA-AA.xvg -bw 0.01 -dist distr-SASA-AA.xvg &> temp_sasa.txt

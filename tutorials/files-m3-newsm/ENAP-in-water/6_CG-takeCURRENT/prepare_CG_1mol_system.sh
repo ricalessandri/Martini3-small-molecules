@@ -41,11 +41,11 @@ solvent_molecules=$(expr $solvent_lines / $solvent_atoms )
 echo "$solvent_name               $solvent_molecules" >> system.top
 
 gmx grompp -p system.top -c initial.gro -f martini_em.mdp  -o 1-min.tpr -po 1-min.mdp  -maxwarn 1
-gmx mdrun -v -nt 6 -deffnm 1-min >> mdrun.log 2>&1
+gmx mdrun -v -deffnm 1-min >> mdrun.log 2>&1
 
 gmx grompp -p system.top -c 1-min.gro   -f martini_eq.mdp  -o 2-eq.tpr  -po 2-eq.mdp 
-gmx mdrun -v -nt 6 -deffnm 2-eq  >> mdrun.log 2>&1
+gmx mdrun -v -deffnm 2-eq  >> mdrun.log 2>&1
 
 gmx grompp -p system.top -c 2-eq.gro    -f martini_run.mdp -o 3-run.tpr -po 3-run.mdp 
-gmx mdrun -v -nt 6 -deffnm 3-run >> mdrun.log 2>&1
+gmx mdrun -v -deffnm 3-run >> mdrun.log 2>&1
 

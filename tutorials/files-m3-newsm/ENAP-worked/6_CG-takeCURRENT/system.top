@@ -1,6 +1,6 @@
 ; Include forcefield parameters
-#include "../4_initial-CG/martini_v3.0.b.3.2.itp"
-#include "martini_v3.0_solvents.itp"
+#include "../4_initial-CG/martini_v3.0.0.itp"
+#include "martini_v3.0.0_solvents_v1.itp"
 
 ; Include chain topologies
 #include "ENAP_take1.itp"
@@ -13,4 +13,4 @@ Two molecules in a solvent
 [ molecules ]
 ; Compound        #mols
 ENAP                1
-WN               884
+W                884

@@ -11,12 +11,12 @@
 
 [ atoms ]
 ; nr type resnr residue atom cgnr charge mass
-   1  TC2   0    ENAP   C1    1    0     
-   2  TC4   0    ENAP   R2    2    0     45   
-   3  TC4   0    ENAP   R3    3    0     45   
-   4  TC4   0    ENAP   R4    4    0      0
-   5  TC4   0    ENAP   R5    5    0     45   
-   6  TC4   0    ENAP   R6    6    0     45   
+   1  TC3   0    ENAP   C1    1    0     
+   2  TC5   0    ENAP   R2    2    0     45   
+   3  TC5   0    ENAP   R3    3    0     45   
+   4  TC5   0    ENAP   R4    4    0      0
+   5  TC5   0    ENAP   R5    5    0     45   
+   6  TC5   0    ENAP   R6    6    0     45   
 
 [bonds]
 ; i  j  funct length

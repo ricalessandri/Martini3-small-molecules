@@ -1,0 +1,14 @@
+; '???' or '*' matches any residue name
+; VanderWaals radii from:
+; R.S. Rowland and Robin Taylor, J. Phys. Chem. 1996, 100, 7384-7391
+; "P" is from [A. Bondi, J. Phys. Chem. 68 (1964) 441-451] because missing from R.S. Rowland's work.
+???  H     0.109
+???  C     0.175
+???  N     0.161
+???  O     0.156
+???  F     0.144
+???  P     0.18
+???  S     0.179
+???  Cl    0.174
+???  Br    0.185
+???  I     0.200

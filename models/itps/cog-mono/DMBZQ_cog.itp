@@ -11,10 +11,10 @@
 
 [atoms]
 ; id  type  resnr  residu atom  cgnr  charge
-   1   TN5a   1     DMBZQ  O1    1     0
+   1   TN6a   1     DMBZQ  O1    1     0
    2   SC4    1     DMBZQ  R2    2     0
    3   SC4    1     DMBZQ  R3    3     0
-   4   TN5a   1     DMBZQ  O4    4     0 
+   4   TN6a   1     DMBZQ  O4    4     0 
 
 [bonds]
 #ifndef FLEXIBLE

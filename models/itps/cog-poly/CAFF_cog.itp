@@ -20,8 +20,8 @@
    3  TN1   0    CAFF   R3    3    0     63
    4  TP1a  0    CAFF   O4    4    0      0
    5  TC5   0    CAFF   R5    5    0      0
-   6  TN5a  0    CAFF   N6    5    0     63
-   7  TN1   0    CAFF   R7    5    0     63
+   6  TN5a  0    CAFF   N6    6    0     63
+   7  TN1   0    CAFF   R7    7    0     63
 
 [bonds]
 #ifndef FLEXIBLE

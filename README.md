@@ -26,6 +26,9 @@ Additional references should be cited for particular models. Please check the he
   <a href="https://github.com/ricalessandri/Martini3-small-molecules/blob/main/tutorials/building_block_table.pdf"><b>Building block reference table to guide bead type choice</b></a>
 </p>
 
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=PfgEx72KxVg"><b>Talk about Martini 3 small molecules (Martini Workshop 2021)</b></a>
+</p>
 
 
 ## Brief summary of repo content

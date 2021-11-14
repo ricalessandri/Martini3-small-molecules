@@ -544,10 +544,7 @@ vmd -m  AA/ENAP-AA-min.gro  AA/surf-AA.pdb  CG/surf-CG.pdb
 This should give you some of the views you find rendered below. Below you find also the plot of the distribution of the SASA 
 along the trajectory - `distr-SASA-AA.xvg` and `distr-SASA-CG.xvg` (AA is in blue, Martini is in red):
 
-<img src="images-m3-newsm/AAvsCG-SASA-tutorial.png" width="200"/>
-<img src="images-m3-newsm/ENAP-Connolly-TOPview.png" width="200"/>
-<img src="images-m3-newsm/ENAP-Connolly-SIDE1view.png" width="200"/>
-<img src="images-m3-newsm/ENAP-Connolly-SIDE2view.png" width="200"/>
+<img src="images-m3-newsm/AAvsCG-SASA-tutorial.png" width="250"/><img src="images-m3-newsm/ENAP-Connolly-TOPview.png" width="200"/><img src="images-m3-newsm/ENAP-Connolly-SIDE1view.png" width="200"/><img src="images-m3-newsm/ENAP-Connolly-SIDE2view.png" width="200"/>
 
 The SASA distributions show a discrepancy of about 5% (the average CG SASA is about 5% smaller than the AA one - see `data_sasa_AA.xvg` 
 and `distr-SASA-CG.xvg`), which is acceptable 

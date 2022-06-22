@@ -27,7 +27,8 @@ Additional references should be cited for particular models. Please check the he
 </p>
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=PfgEx72KxVg"><b>Talk about Martini 3 small molecules (Martini Workshop 2021)</b></a>
+  <a href="https://www.youtube.com/watch?v=PfgEx72KxVg"><b>Talk about Martini 3 small molecules at the Martini Workshop 2021</b></a>
+  (<a href="http://cgmartini.nl/images/stories/workshop2021/lectures/second/riccardo/2021-09-02_MartiniWorkshop2021_Small_molecules-vFINAL.pdf"><b>slides</b></a>)
 </p>
 
 

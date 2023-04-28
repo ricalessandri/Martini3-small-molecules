@@ -6,6 +6,8 @@
 ;;;;;                                                                                                     
 
 
+;;;;; MONOcyclic compounds
+
 ;;;;;; ACETOPHENONE
 ;
 ; Reference(s):
@@ -185,6 +187,116 @@
   1 2       1     0.330 ; cog
   2 3       1     0.295 ; cog is ~0.290
   1 3       1     0.330 ; cog
+
+
+
+;;;;; POLYcyclic compounds
+
+;;;;;; BARICITINIB
+;
+; Reference(s):
+;   PCT Souza, S Thallmair, P Conflitti, JC Ramirez Palacios, R Alessandri, S Raniolo, V Limongelli, SJ Marrink, Protein-Ligand
+;   Binding with the Coarse-Grained Martini Model, Nat. Commun. 2020, 11, 3714, [DOI: 10.1038/s41467-020-17437-5].
+;
+; Note(s):
+;   For minimizations, you may use define=-DFLEXIBLE to use a stiff-bond version of the topology that is more amenable to minimization.
+;
+
+[ moleculetype ]
+; molname    nrexcl
+  BARI         1 
+
+[ atoms ]
+; nr type resnr residue atom cgnr charge mass
+   1  TN5d  1    BARI    N1    1    0     45 ; hinge
+   2  TC5   1    BARI    R2    2    0     45 ; hinge
+   3  TC5   1    BARI    R3    3    0      0 ; hinge
+   4  TN6a  1    BARI    N4    4    0     45 ; hinge
+   5  TN6a  1    BARI    N5    5    0     45 ; hinge
+   6  TC5   1    BARI    R6    6    0        
+   7  TC5   1    BARI    R7    7    0        
+   8  TP2a  1    BARI    N8    8    0                                      
+   9  TC3   1    BARI    R9    9    0        
+  10  TN2a  1    BARI    CN   10    0                                      
+  11  SN1   1    BARI    N11  11    0                                      
+  12  SP5a  1    BARI    SOO  12    0                                      
+  13  TC3   1    BARI    C13  13    0                                      
+  14  U     1    BARI    U14  14    0      0 ; 1st dummy site needed for the dihedral controlling the pyrazole rotation
+  15  U     1    BARI    U15  15    0      0 ; 2nd dummy site needed for the dihedral controlling the pyrazole rotation
+
+[bonds]
+; i  j  funct length
+  2  8   1     0.506   25000 ; cog (ENAPH-like construction) 
+  5  8   1     0.391   25000 ; cog (ENAPH-like construction)
+  8  9   1     0.242   25000 
+  8 11   1     0.282   25000 
+  9 11   1     0.253   25000 
+  9 10   1     0.236   25000 ; cog 
+ 11 12   1     0.244   20000 ; cog 
+ 12 13   1     0.280   25000 ; cog 
+#ifndef FLEXIBLE
+[constraints]
+#endif
+; i  j  funct length
+  1  2   1     0.256 1000000 ; cog
+  1  4   1     0.377 1000000 ; cog
+  1  5   1     0.409 1000000 ; cog
+  2  5   1     0.353 1000000 ; cog
+  4  5   1     0.217 1000000 ; cog
+  6  7   1     0.261 1000000 ; cog
+  6  8   1     0.195 1000000 ; cog
+  7  8   1     0.208 1000000 ; cog
+
+[angles]
+; i  j  k  funct  angle  force_k
+  6  7  9    2     48.2   100.0  
+  7  6  9    2     92.4   100.0  
+  6  7 11    2     49.4   100.0  
+  7  6 11    2     97.5   100.0  
+  8  9 10    2    153.0   125.0  
+ 11 12 13    2     87.7   125.0  ; cog (CRY = 92.4) 
+ 14  8  9    2    114.0   100.0       
+ 14  8 11    2    132.0   100.0        
+  2 15 14   10     71.0    50.0  ; protects dihedral
+ 15 14  7   10     93.3    50.0  ; protects dihedral
+
+[ dihedrals ]
+; improper
+; i  j  k  l  funct  ref.angle force_k mult
+  1  2  4  5    2      180       200        ; keeps the pyrrolo[2,3-d]pyrimidine planar (naphthalene-like)
+ 14  4  2  1    2      180        50        ; controls (out-of-)planarity of COG of pyrazole w.r.t the pyrrolo[2,3-d]pyrimidine
+  5 14  3  4    2        0       100        ; keeps the COG of pyrazole on the correct position on the pyrrolo[2,3-d]pyrimidine
+  8  4  2  1    2      180        50        ; controls (out-of-)planarity of N-N group of pyrazole w.r.t the pyrrolo[2,3-d]pyrimidine
+  5  8  3  4    2        0       100        ; keeps the N-N group of pyrazole on the correct position on the pyrrolo[2,3-d]pyrimidine
+ 15  2 14  8    2      180       100        ; keep the planes of the 2 rings co-planar (1/2)
+  5  6  7  8    2      180       100        ; p-cresol-like, keep the planes of the 2 rings co-planar (2/2)
+  8  7  6 11    2      -10       100        ; keep the tetrahedral carbon configuration
+  8  7  6  9    2       30       100        ; keep the tetrahedral carbon configuration
+  2 15 14  7    1        0       100     1  ; pyrrolo[2,3-d]pyrimidine to pyrazole torsion
+
+[virtual_sites2]
+; sites positioned at 1-a
+; site  from  funct    a
+  14    6  7    1     0.500 ; by construction
+
+[virtual_sites3]
+; VS beads 3
+   15    5  4  2     1     0.400   0.200 ; cog
+
+[virtual_sitesn]
+; site funct  constructing atom indices
+   3     1     1 2 4 5
+
+[exclusions]
+  1  2  3  4  5  6  7  8  9 10 11
+  2  3  4  5  6  7  8  9 10 11  
+  3  4  5  6  7  8  9 10 11     
+  4  5  6  7  8  9 10 11        
+  6  7  8  9 10 11              
+  7  8  9 10 11                 
+  8  9 10 11                    
+  9 10 11                    
+ 10 11                    
 
 
 ;;;;;; CAFFEINE

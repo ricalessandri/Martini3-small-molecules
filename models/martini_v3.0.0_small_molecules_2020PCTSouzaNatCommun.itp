@@ -482,6 +482,127 @@ ADEN                 1
  5 6 7
  6 7
 
+ 
+;;;;;; DASATINIB
+;
+; Reference(s):
+;   PCT Souza, S Thallmair, P Conflitti, JC Ramirez Palacios, R Alessandri, S Raniolo, V Limongelli, SJ Marrink, Protein-Ligand
+;   Binding with the Coarse-Grained Martini Model, Nat. Commun. 2020, 11, 3714, [DOI: 10.1038/s41467-020-17437-5].
+;
+
+[ moleculetype ]
+; Name          nrexcl
+  DASA            1
+
+[ atoms ]
+; nr    type    resnr   residue atom    cgnr    charge  mass
+  1     TC5       1       DASA    R1      1       0             ; benzene-like
+  2     SC4       1       DASA    R2      2       0             ; toluene-like methyl
+  3     SX3       1       DASA    Cl      3       0             ; chlorobenzene-like chlorine
+  4     VS        1       DASA    V4      4       0       0
+  5     SP2       1       DASA    P5      5       0
+  6     TC6       1       DASA    S6      6       0             ; thiophene-like sulphur
+  7     TC5       1       DASA    R7      7       0             ; benzene-like
+  8     TN6a      1       DASA    N8      8       0             ; thiazole/pyrimidine-like
+  9     VS        1       DASA    V9      9       0       0
+ 10     VS        1       DASA   V10     10       0       0
+ 11     TN2d      1       DASA   N11     11       0
+ 12     SN4a      1       DASA   N12     12       0
+ 13     TN1       1       DASA   N13     13       0
+ 14     VS        1       DASA   V14     14       0       0
+ 15     SC4       1       DASA   C15     15       0
+ 16     SC4       1       DASA   C16     16       0
+ 17     TN1       1       DASA   N17     17       0
+ 18     TP1       1       DASA   O18     18       0
+ 19     VS        1       DASA   V19     19       0       0
+
+[ bonds ]
+; i     j       funct   length  force_k
+  4     5       1       0.204   25000
+  5     9       1       0.312   25000
+  4     9       1       0.513   50000   ; VS_Cl-toluene to VS_thiazole
+ 10    14       1       0.270   50000   ; VS_bridge to VS_methyl-pyrimidine
+ 13    15       1       0.319   25000
+ 13    16       1       0.278   25000
+ 15    16       1       0.308   50000
+ 15    17       1       0.300   25000
+ 16    17       1       0.300   25000
+ 17    18       1       0.230   40000
+
+
+[ constraints ]
+; i     j       funct   length
+  1     2       1       0.364   ; Cl-toluene constraints
+  1     3       1       0.310   ; Cl-toluene constraints 
+  2     3       1       0.441   ; Cl-toluene constraints
+  6     7       1       0.248   ; thiazole constraints 
+  6     8       1       0.200   ; thiazole constraints      
+  7     8       1       0.205   ; thiazole constraints       
+ 11    12       1       0.349   ; pyrimidine constraints
+ 11    13       1       0.239   ; pyrimidine constraints 
+ 12    13       1       0.351   ; pyrimidine constraints
+
+[ angles ]
+; i     j       k       funct   angle   force_k
+  1     2       9       1       109.5     180    ; P3HT-like angles 
+  1     3       9       1       120.0     180    ; P3HT-like angles
+  8     6       4       1        99.5     250    ; P3HT-like angles
+  8     7       4       1       159.0     180    ; P3HT-like angles 
+  4     9      10       1       180.0     180    ; VS-VS-VS
+  6     9      10       1       100.0     180 
+  9    10      14       10      140.0     250    ; VS-VS-VS
+ 10    14      12       1       119.0     170
+ 10    14      13       1       108.0     250
+ 10    14      19       1       135.0     180    ; VS-VS-VS
+ 11    13      16       1       130.0      12    ; pyrimidine-piperazine connection
+ 11    13      16       1       160.0      12    ; pyrimidine-piperazine connection
+  4     5       9       1       165.0     140 
+ 13    19      17       1       160.0      50    ; causes instablities if it goes below 90 degrees
+ 12    14      19      10       130.0      50    ; Restricted Bending angle possibly not needed
+ 10    11      14       1       145.0      50    ; Keep V10 in same plane as the pyrimidine ring                                                      
+
+[ dihedrals ]
+; i     j       k       l       funct  ref.angle   force_k
+  3     4       9       6         1     -90.0       18.0    1 ; Cl-toluene to thiazole
+  6     9      10      14         1     180.0       20.0    2 ; thiazole to methyl-pyrimidine
+  9    10      14      12         1     180.0        6.0    2 ; thiazole to methyl-pyrimidine
+ 12    14      19      16         1      45.0        4.0    4 ; methyl-pyrimidine to piperazine
+ 10    12      13      14         2       0.0      200.0      ; improper keep VS10 same plane as CH3-pyrimidine
+ 13    15      17      16         2     -15.0       80.0      ; improper keep the piperazine ring flat
+ 12     14      10      9         2       0.0        2.0
+ 12     14      9       6         2       0.0        2.0
+
+[ virtual_sites2 ]
+; sites positioned at 1-a
+; site  from      funct    a
+   4    3   2       1    0.4344 ; dist_|3-2|=0.442 => the VS will be at 0.442*0.4344=0.192 nm from atom 3
+  19   15  16       1    0.5000 ; in the middle
+
+[ virtual_sites3 ]
+; site positioned as a linear combination of 3 atoms
+; the site is in the same plane of the 3 atoms
+; site  from      funct    a    b
+  10     7  8  6   1     1.668 0.248 ; dist_|10-6| = 1.81; dist_|10-8|=2.68
+  14    12 11 13   1     0.335 0.329 ; dist_|14-13|= 1.64; dist_|14-11|=1.62; dist_|14-12|=2.18
+
+[ virtual_sitesn ]
+; site funct  constructing atom indices
+  9     1       6       7       8
+
+[ exclusions ]
+; usually, exclude "first-neighbour" ring fragments
+  1     6       7       8       
+  2     6       7       8       
+  3     6       7       8       
+  5     6       7       8       
+  6    11      12      13 
+  7    11      12      13 
+  8    11      12      13    
+ 11    15      16      17
+ 12    15      16      17   
+ 13    17      18
+  5     3       2
+
 
 ;;;;;; INDOLE
 ;

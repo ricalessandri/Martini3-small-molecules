@@ -528,6 +528,77 @@ ADEN                 1
  4 5
 
 
+;;;;;; PROPANOLOL
+;
+; Reference(s):
+;   PCT Souza, S Thallmair, P Conflitti, JC Ramirez Palacios, R Alessandri, S Raniolo, V Limongelli, SJ Marrink, Protein-Ligand
+;   Binding with the Coarse-Grained Martini Model, Nat. Commun. 2020, 11, 3714, [DOI: 10.1038/s41467-020-17437-5].
+;
+; Note(s):
+;   For minimizations, you may use define=-DFLEXIBLE to use a stiff-bond version of the topology that is more amenable to minimization.
+;
+
+[ moleculetype ]
+; molname    nrexcl
+  PRN         1
+
+[ atoms ]
+; nr type resnr residue atom cgnr charge mass
+   1   Q4p  1    PRN     N1    1    1    73.0
+   2  SP1   1    PRN     O2    2    0    44.0
+   3  TN2a  1    PRN     O3    3    0    28.0
+   4  TC5e  1    PRN     R4    4    0    31.8
+   5  TC5   1    PRN     R5    5    0    31.8
+   6  TC5e  1    PRN     R6    6    0     0.0
+   7  TC5   1    PRN     R7    7    0    31.8
+   8  TC5   1    PRN     R8    8    0    31.8
+
+[ bonds ]
+; i  j  funct length  force_k
+  1  2   1     0.4139   2500
+  2  3   1     0.3090   5000
+  3  4   1     0.250   25000 ; cog
+  3  6   1     0.401   25000 ; cog
+#ifndef FLEXIBLE
+[constraints]
+#endif
+; i  j  funct length
+  4  5   1     0.255 1000000 ; cog
+  4  7   1     0.447 1000000 ; cog
+  4  8   1     0.505 1000000 ; cog
+  5  8   1     0.416 1000000 ; cog
+  7  8   1     0.286 1000000 ; cog
+
+[ angles ]
+; i  j  k  funct  angle  force_k
+  1  2  3    1      110     80
+  2  3  7    1      125    100
+  2  3  4    1      130    150
+
+[ dihedrals ]
+; proper
+; i j k l  funct  ref.angle force_k mult
+  1 2 3 7    1      195         5    1
+; improper
+; i j k l  funct  ref.angle force_k
+  3 5 7 8    2      180        50  ; controls planarity of methoxy
+  4 3 6 5    2        0        50  ; keeps methoxy on position 1
+  4 5 7 8    2      180       200  ; based on NAPH
+
+[ virtual_sitesn ]
+; site funct  constructing atom indices
+   6     1     4 5 7 8
+
+[ exclusions ]
+ 1 2 3 4 5 6 7 8
+ 2 3 4 5 6 7 8
+ 3 4 5 6 7 8
+ 4 5 6 7 8
+ 5 6 7 8
+ 6 7 8
+ 7 8
+
+
 ;;;;;; THIENO[2,3-c]PYRIDINE
 ;
 ; Reference(s):

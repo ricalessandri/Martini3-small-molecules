@@ -8,6 +8,61 @@
 
 ;;;;; MONOcyclic compounds
 
+;;;;;; ADRENALINE
+;
+; Reference(s):
+;   PCT Souza, S Thallmair, P Conflitti, JC Ramirez Palacios, R Alessandri, S Raniolo, V Limongelli, SJ Marrink, Protein-Ligand
+;   Binding with the Coarse-Grained Martini Model, Nat. Commun. 2020, 11, 3714, [DOI: 10.1038/s41467-020-17437-5].
+;
+
+[ moleculetype ]
+; molname    nrexcl
+  ADR          1
+
+[ atoms ]
+; nr type resnr residue atom cgnr charge mass
+   1  SQ4p  1    ADR     N1    1   +1    37.0
+   2  SP1   1    ADR     O2    2    0    37.0
+   3  TC5   1    ADR     C3    3    0    25.0
+   4  TC5   1    ADR     C4    4    0    26.0
+   5  TP1   1    ADR     O5    5    0    29.0
+   6  TP1   1    ADR     O6    6    0    29.0
+
+[ bonds ]
+  1  2   1     0.2822   5000
+  2  3   1     0.2469   5000
+
+[ constraints ]
+; i  j  funct length
+  3  4   1     0.2979
+  3  6   1     0.2422
+  5  6   1     0.2367
+  4  5   1     0.3130
+  4  6   1     0.4026
+
+[ angles ]
+  1  2   3  10  125  100
+  2  3   4  10   84  100
+  2  3   6   1  167  100
+
+[ dihedrals ]
+; proper
+; i j k l  funct  ref.angle force_k mult
+  1 2 3 4    1        0        10    2
+
+; improper
+; i j k l  funct  ref.angle force_k
+  3 4 6 5    2      180       200
+  2 3 4 6    2      180       100
+
+[ exclusions ]
+ 1 2 3 4 5 6
+ 2 3 4 5 6
+ 3 4 5 6
+ 4 5 6
+ 5 6
+
+
 ;;;;;; ACETOPHENONE
 ;
 ; Reference(s):

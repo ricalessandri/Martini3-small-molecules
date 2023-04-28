@@ -192,6 +192,73 @@
 
 ;;;;; POLYcyclic compounds
 
+;;;;;; ADENOSINE
+;
+; Reference(s):
+;   PCT Souza, S Thallmair, P Conflitti, JC Ramirez Palacios, R Alessandri, S Raniolo, V Limongelli, SJ Marrink, Protein-Ligand
+;   Binding with the Coarse-Grained Martini Model, Nat. Commun. 2020, 11, 3714, [DOI: 10.1038/s41467-020-17437-5].
+;
+
+[ moleculetype ]
+; Name            nrexcl
+ADEN                 1
+
+[ atoms ]
+; nr type resnr residue atom cgnr charge mass
+   1   TN1  1    ADEN    N1    1    0     36.79
+   2  TN3a  1    ADEN    N2    2    0     36.79 
+   3  TN5a  1    ADEN    N3    3    0      0.0
+   4  TP1d  1    ADEN    N4    4    0     36.79
+   5  TN3a  1    ADEN    N5    5    0     36.79
+   6   TC6  1    ADEN    C6    6    0      0.0
+   7   SP2  1    ADEN    O7    7    0     60.05
+   8   SP3  1    ADEN    O8    8    0     60.05 
+
+[ bonds ]
+; i  j  funct length force_k
+  1  7   1     0.315   5000
+  1  8   1     0.336   5000
+  7  8   1     0.352   5000
+
+[constraints]
+; i  j  funct length
+  1  2   1     0.268     
+  1  5   1     0.287      
+  4  5   1     0.316  
+  2  5   1     0.353
+  2  4   1     0.417 
+ 
+[ angles ]
+; i  j  k  funct  angle  force_k
+  2  1  8   10   109.96   100
+  5  1  8   10   138.29   100
+  5  1  7   10   104.23   100
+
+[ dihedrals ]
+; i  j  k  l  funct  ref.angle force_k mult
+  1  2  5  4    2      180.0     400.0 
+  1  8  7  6    2      -13.22    400.00
+
+[ virtual_sites3 ]
+;  VS beads 3fd
+; Site  from       funct       a       d
+    3    5  2  4     2      0.52   0.373 
+
+[ virtual_sitesn ]
+;  VS beads in the centre of the mass
+; site funct  constructing atom indices
+    6    2       2   5
+ 
+[ exclusions ]
+ 1 2 3 4 5 6 7 8
+ 2 3 4 5 6 7 8
+ 3 4 5 6 7 8
+ 4 5 6 7 8
+ 5 6 7 8
+ 6 7 8
+ 7 8
+
+
 ;;;;;; BARICITINIB
 ;
 ; Reference(s):

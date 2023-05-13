@@ -499,22 +499,22 @@ ADEN                 1
   1     TC5       1       DASA    R1      1       0             ; benzene-like
   2     SC4       1       DASA    R2      2       0             ; toluene-like methyl
   3     SX3       1       DASA    Cl      3       0             ; chlorobenzene-like chlorine
-  4     VS        1       DASA    V4      4       0       0
+  4     U         1       DASA    V4      4       0       0
   5     SP2       1       DASA    P5      5       0
   6     TC6       1       DASA    S6      6       0             ; thiophene-like sulphur
   7     TC5       1       DASA    R7      7       0             ; benzene-like
   8     TN6a      1       DASA    N8      8       0             ; thiazole/pyrimidine-like
-  9     VS        1       DASA    V9      9       0       0
- 10     VS        1       DASA   V10     10       0       0
+  9     U         1       DASA    V9      9       0       0
+ 10     U         1       DASA   V10     10       0       0
  11     TN2d      1       DASA   N11     11       0
  12     SN4a      1       DASA   N12     12       0
  13     TN1       1       DASA   N13     13       0
- 14     VS        1       DASA   V14     14       0       0
+ 14     U         1       DASA   V14     14       0       0
  15     SC4       1       DASA   C15     15       0
  16     SC4       1       DASA   C16     16       0
  17     TN1       1       DASA   N17     17       0
  18     TP1       1       DASA   O18     18       0
- 19     VS        1       DASA   V19     19       0       0
+ 19     U         1       DASA   V19     19       0       0
 
 [ bonds ]
 ; i     j       funct   length  force_k

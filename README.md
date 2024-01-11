@@ -15,11 +15,11 @@ Additional references should be cited for particular models. Please check the he
 ## Quick links
 
 <p align="center">
-  <a href="https://github.com/ricalessandri/Martini3-small-molecules/blob/main/models/martini_v3.0.0_small_molecules_v1.itp"><b>Martini 3 small molecule models - current database</b></a>
+  <a href="./martini_v3.0.0_small_molecules_v1.itp"><b>Martini 3 small molecule models - current database</b></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/ricalessandri/Martini3-small-molecules/blob/main/tutorials/M3tutorials--parameterizing-a-new-small-molecule.md"><b>Tutorial: Parametrizing a new small molecule with Martini 3</b></a>
+  <a href="./tutorials/M3tutorials--parameterizing-a-new-small-molecule.md"><b>Tutorial: Parametrizing a new small molecule with Martini 3</b></a>
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@ Additional references should be cited for particular models. Please check the he
 </p>
 
 <p align="center">
-  <a href="https://github.com/ricalessandri/Martini3-small-molecules/blob/main/tutorials/building_block_table.pdf"><b>Building block reference table to guide bead type choice</b></a>
+  <a href="./tutorials/building_block_table.pdf"><b>Building block reference table to guide bead type choice</b></a>
 </p>
 
 <p align="center">
@@ -41,13 +41,13 @@ Additional references should be cited for particular models. Please check the he
 This repo contains:
 
 - Martini 3 small molecule models (and supporting files, e.g., atomistic-to-Martini mapping files):
-  [models/](https://github.com/ricalessandri/Martini3-small-molecules/blob/master/models)
+  [models/](./models)
 
 - Tutorials and reference material to build your own Martini 3 model: 
-  [tutorials/](https://github.com/ricalessandri/Martini3-small-molecules/blob/master/tutorials)
+  [tutorials/](./tutorials)
 
 - The procedures used to compute properties: 
-  [procedures/](https://github.com/ricalessandri/Martini3-small-molecules/blob/master/procedures)
+  [procedures/](./procedures)
   
 Please make sure to check the `README.md` in each subfolder for some more information and details. 
 

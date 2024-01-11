@@ -23,6 +23,10 @@ Additional references should be cited for particular models. Please check the he
 </p>
 
 <p align="center">
+  <a href="./LIBRARY.md"><b>Current Martini 3 Small Molecule Library</b></a>
+</p>
+
+<p align="center">
   <a href="https://github.com/ricalessandri/Martini3-small-molecules/blob/main/tutorials/building_block_table.pdf"><b>Building block reference table to guide bead type choice</b></a>
 </p>
 

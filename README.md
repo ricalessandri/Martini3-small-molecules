@@ -15,7 +15,7 @@ Additional references should be cited for particular models. Please check the he
 ## Quick links
 
 <p align="center">
-  <a href="./martini_v3.0.0_small_molecules_v1.itp"><b>Martini 3 small molecule models - current database</b></a>
+  <a href="./models/martini_v3.0.0_small_molecules_v1.itp"><b>Martini 3 small molecule models - current database</b></a>
 </p>
 
 <p align="center">

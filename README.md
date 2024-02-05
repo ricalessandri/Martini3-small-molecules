@@ -15,11 +15,11 @@ Additional references should be cited for particular models. Please check the he
 ## Quick links
 
 <p align="center">
-  <a href="./models/martini_v3.0.0_small_molecules_v1.itp"><b>Current *collection* of Martini 3 small molecule models</b></a>
+  <a href="./models/martini_v3.0.0_small_molecules_v1.itp"><b>Current *itp collection* of Martini 3 small molecule models</b></a>
 </p>
 
 <p align="center">
-  <a href="./LIBRARY.md"><b>Current *library table* of Martini 3 small molecule models</b></a>
+  <a href="./LIBRARY.md"><b>Current *lookup table* of Martini 3 small molecule models</b></a>
 </p>
 
 <p align="center">

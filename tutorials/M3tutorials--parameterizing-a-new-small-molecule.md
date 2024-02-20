@@ -2,6 +2,13 @@
 ### Martini 3 tutorials: parametrization of a new small molecule
 ----
 
+---
+
+<p style="font-family: Courier New, monospace;">Version: 1.0.1<br>
+Contributed by: <a href="https://github.com/ricalessandri">@ricalessandri</a>, <a href="https://github.com/Lp0lp">@Lp0lp</a>, <a href="https://github.com/paulocts">@paulocts</a>.</p>
+
+---
+
 Files required and worked examples for this tutorial can be downloaded [here](https://github.com/ricalessandri/Martini3-small-molecules/blob/main/tutorials/files-m3-newsm.zip).
 
 <h2 style="text-align: left;"><span style="font-size: 14pt;">Table of contents</span></h2>
@@ -33,7 +40,9 @@ This tutorial is based on the analogous
 but takes into account some important aspects which changed in Martini 3. We will use as an example 
 the molecule *1-ethylnaphthalene*, and make use of Gromacs versions 2019.x or later.
 
+<p align="center">
 <img src="images-m3-newsm/1-ethylnaphthalene.png" width="160" />
+</p>
 
 
 <h2 style="text-align: left;"><a name="1) Generate atomistic reference data"></a>1) Generate atomistic reference data</h2>
@@ -125,7 +134,9 @@ are best described by Tiny (T) beads. This ensures packing-related properties cl
 [[1]](https://doi.org/10.1038/s41592-021-01098-3)-[[2]](https://doi.org/10.33774/chemrxiv-2021-1qmq9). 
 In this case, the 10 carbon atoms of the naphthalene moiety are therefore mapped to 5 T-beads, as shown in the figure below:
    
+<p align="center">
 <img src="images-m3-newsm/1-ethylnaphthalene_mapping.png" width="220"/>
+</p>
 
 Which leaves us with the ethyl group. A T-bead is again a good choice because the T-bead size is suited for describing 
 2 non-hydrogen atoms. Note that, the beads have also been numbered in the figure for further reference.
@@ -298,7 +309,9 @@ their distributions are going to be very narrow. This calls for the use of const
 [[1]](https://doi.org/10.1038/s41592-021-01098-3)-[[3]](https://pubs.acs.org/doi/abs/10.1021/jp071097f). 
 A "naive" way of putting the model together would be to constrain all the beads (see Figure A below):
 
+<p align="center">
 <img src="images-m3-newsm/ENAPH-the-2-models.png" width="400"/>
+</p>
 
 such a model, however, is prone to numerical instabilities, because it is increasingly complicated 
 for the constraint algorithm to satisfy a growing number of connected constraints. Another option is to build a "hinge" model 
@@ -462,11 +475,15 @@ gnuplot plot_dihedrals_tutorial_4x1.gnu
 
 The plots produced should look like the following, for bonds:
 
+<p align="center">
 <img src="images-m3-newsm/AAvsCG-bond-tutorial-4x2.png" width="800"/>
+</p>
 
 and dihedrals (AA is in blue, Martini is in red):
 
+<p align="center">
 <img src="images-m3-newsm/AAvsCG-dih-tutorial-4x1.png" width="800"/>
+</p>
 
 The agreement is very good. Note that the bimodality of the distributions of the 
 first two dihedrals cannot be captured by the CG model. 
@@ -544,7 +561,9 @@ vmd -m  AA/ENAP-AA-min.gro  AA/surf-AA.pdb  CG/surf-CG.pdb
 This should give you some of the views you find rendered below. Below you find also the plot of the distribution of the SASA 
 along the trajectory - `distr-SASA-AA.xvg` and `distr-SASA-CG.xvg` (AA is in blue, Martini is in red):
 
+<p align="center">
 <img src="images-m3-newsm/AAvsCG-SASA-tutorial.png" width="250"/><img src="images-m3-newsm/ENAP-Connolly-TOPview.png" width="200"/><img src="images-m3-newsm/ENAP-Connolly-SIDE1view.png" width="200"/><img src="images-m3-newsm/ENAP-Connolly-SIDE2view.png" width="200"/>
+</p>
 
 The SASA distributions show a discrepancy of about 5% (the average CG SASA is about 5% smaller than the AA one - see `data_sasa_AA.xvg` 
 and `distr-SASA-CG.xvg`), which is acceptable 

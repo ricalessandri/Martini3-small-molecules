@@ -43,9 +43,6 @@ This repo contains:
 - Martini 3 small molecule models (and supporting files, e.g., atomistic-to-Martini mapping files):
   [models/](./models)
 
-- Tutorials and reference material to build your own Martini 3 model: 
-  [tutorials/](./tutorials)
-
 - The procedures used to compute properties: 
   [procedures/](./procedures)
   

@@ -2,7 +2,7 @@
 <h1 align="center">
   <div>
     <a href="https://github.com/ricalessandri/Martini3-small-molecules" target="_blank">
-      <img src="docs/assets/M3_small_molecule_logo.png" alt="SM3" height="100">
+      <img src="docs/assets/M3_small_molecule_logo.png" alt="SM3" height="150">
     </a>
   </div>
 </h1>

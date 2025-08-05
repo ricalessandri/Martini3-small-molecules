@@ -1,4 +1,12 @@
 
+<h1 align="center">
+  <div>
+    <a href="https://github.com/ricalessandri/Martini3-small-molecules" target="_blank">
+      <img src="docs/assets/M3_small_molecule_logo.png" alt="SM3" height="150">
+    </a>
+  </div>
+</h1>
+
 # Martini 3 small-molecule database
 
 This GitHub repository contains a collection of Martini 3 models for small molecules.

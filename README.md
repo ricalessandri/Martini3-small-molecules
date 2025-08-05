@@ -23,11 +23,11 @@ Additional references should be cited for particular models. Please check the he
 </p>
 
 <p align="center">
-  <a href="./tutorials/M3tutorials--parameterizing-a-new-small-molecule.md"><b>Tutorial: Parametrizing a new small molecule with Martini 3</b></a>
+  <a href="https://cgmartini.nl/docs/tutorials/Martini3/Small_Molecule_Parametrization"><b>Tutorial: Parametrizing a new small molecule with Martini 3</b></a>
 </p>
 
 <p align="center">
-  <a href="./tutorials/building_block_table.pdf"><b>Building block reference table to guide bead type choice</b></a>
+  <a href="./docs/assets/building_block_table.pdf"><b>Building block reference table to guide bead type choice</b></a>
 </p>
 
 <p align="center">

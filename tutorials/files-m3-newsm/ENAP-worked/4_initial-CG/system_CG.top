@@ -1,8 +1,0 @@
-#include "martini_v3.0.0.itp"
-#include "ENAP_initial.itp"
-
-[ system ]
-One molecule
-
-[ molecules ]
-ENAP                    1

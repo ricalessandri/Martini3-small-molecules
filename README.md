@@ -40,7 +40,7 @@ Additional references should be cited for particular models. Please check the he
 
 <p align="center">
   <a href="https://d3ebrx6qufncts.cloudfront.net/0_Tutorials/Lectures/videos/2021-09-02_MartiniWorkshop2021_Small_molecules.mp4"><b>Talk about Martini 3 small molecules at the Martini Workshop 2021</b></a>
-  (<a href="http://cgmartini.nl/images/stories/workshop2021/lectures/second/riccardo/2021-09-02_MartiniWorkshop2021_Small_molecules-vFINAL.pdf"><b>slides</b></a>)
+  (<a href="https://cgmartini-library.s3.ca-central-1.amazonaws.com/0_Tutorials/Lectures/pdfs/2021-09-02_MartiniWorkshop2021_Small_molecules-vFINAL.pdf"><b>slides</b></a>)
 </p>
 
 
